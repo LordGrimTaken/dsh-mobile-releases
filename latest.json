@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  14,
-    "versionName":  "0.2.12-preview",
-    "tag":  "v0.2.12-preview",
-    "publishedAt":  "2026-10-30T18:19:30Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.12-preview/dsh-mobile-0.2.12-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.12-preview-debug.apk",
-    "apkSizeBytes":  18049787,
-    "sha256":  "8233aaabd04fad0213c10846039f7da7d2c1db7bdd4b6f31fb70189e32d3655d",
+    "versionCode":  15,
+    "versionName":  "0.2.13-preview",
+    "tag":  "v0.2.13-preview",
+    "publishedAt":  "2026-10-30T18:23:18Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.13-preview/dsh-mobile-0.2.13-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.13-preview-debug.apk",
+    "apkSizeBytes":  18066171,
+    "sha256":  "9e600b7e96e3e59ee612a1aa1e6ee840b10da58135383d9d282875ab6d98043c",
     "minSdk":  26,
-    "notes":  "Crash diagnostics: an uncaught-exception recorder offers to share the stack on the next launch; the chat no longer creates a TextToSpeech engine just by opening a session; unique LazyColumn keys and guarded scroll targets harden session open. Includes the live DeepSeek account balance (remaining credit), hide-from-list, and all prior features.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.12-preview"
+    "notes":  "Crash diagnostics build: uncaught exceptions are saved with app/build/device/Android/screen/memory metadata and can be shared or copied from Settings; the next launch also offers the report. Launch update checks no longer pop a modal that can hand you to the package installer - use Settings to check/update. Also includes the live DeepSeek remaining-credit balance and prior features.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.13-preview"
 }
