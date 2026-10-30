@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  11,
-    "versionName":  "0.2.9-preview",
-    "tag":  "v0.2.9-preview",
-    "publishedAt":  "2026-10-30T17:38:42Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.9-preview/dsh-mobile-0.2.9-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.9-preview-debug.apk",
-    "apkSizeBytes":  18030327,
-    "sha256":  "78a28cf3467205ffaacb1a9955fbee9ee17750285d521b0d20bd1fb0a917f51e",
+    "versionCode":  12,
+    "versionName":  "0.2.10-preview",
+    "tag":  "v0.2.10-preview",
+    "publishedAt":  "2026-10-30T17:40:31Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.10-preview/dsh-mobile-0.2.10-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.10-preview-debug.apk",
+    "apkSizeBytes":  18030331,
+    "sha256":  "e1f3b429d203072349ffa804f9d87e51e713d10c0696e4fe667b57f081803645",
     "minSdk":  26,
-    "notes":  "Send queue: prompts sent during a working turn are queued with attachment ids and drained automatically when the agent goes idle; queued prompts show above the composer with cancel. Plus camera capture, cache-first list, launcher quick actions, find, and Share-to-DSH.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.9-preview"
+    "notes":  "Per-code-block copy in assistant messages; pinned sessions (star a session to keep it at the top locally); plus the send queue, camera capture, cache-first list, launcher quick actions, find, Share-to-DSH and usage dashboard.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.10-preview"
 }
