@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  13,
-    "versionName":  "0.2.11-preview",
-    "tag":  "v0.2.11-preview",
-    "publishedAt":  "2026-10-30T17:42:45Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.11-preview/dsh-mobile-0.2.11-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.11-preview-debug.apk",
-    "apkSizeBytes":  18033403,
-    "sha256":  "a873c8c61cae2493b2101a9e650a33130b0c944c2a1a1c10a865d89a78e821fc",
+    "versionCode":  14,
+    "versionName":  "0.2.12-preview",
+    "tag":  "v0.2.12-preview",
+    "publishedAt":  "2026-10-30T18:19:30Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.12-preview/dsh-mobile-0.2.12-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.12-preview-debug.apk",
+    "apkSizeBytes":  18049787,
+    "sha256":  "8233aaabd04fad0213c10846039f7da7d2c1db7bdd4b6f31fb70189e32d3655d",
     "minSdk":  26,
-    "notes":  "Home-screen widget with quick actions (open DSH / new session / usage); pinned sessions and per-code-block copy; plus the send queue, camera, cache-first list, find, Share-to-DSH and usage dashboard.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.11-preview"
+    "notes":  "Crash diagnostics: an uncaught-exception recorder offers to share the stack on the next launch; the chat no longer creates a TextToSpeech engine just by opening a session; unique LazyColumn keys and guarded scroll targets harden session open. Includes the live DeepSeek account balance (remaining credit), hide-from-list, and all prior features.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.12-preview"
 }
