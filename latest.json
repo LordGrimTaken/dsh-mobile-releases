@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  9,
-    "versionName":  "0.2.7-preview",
-    "tag":  "v0.2.7-preview",
-    "publishedAt":  "2026-10-30T17:35:12Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.7-preview/dsh-mobile-0.2.7-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.7-preview-debug.apk",
-    "apkSizeBytes":  18013943,
-    "sha256":  "55de0197b4ad1354c4e0d0ee1974ce54e4ae74e834e5b4bdb157c7bf1ef945ec",
+    "versionCode":  10,
+    "versionName":  "0.2.8-preview",
+    "tag":  "v0.2.8-preview",
+    "publishedAt":  "2026-10-30T17:37:15Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.8-preview/dsh-mobile-0.2.8-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.8-preview-debug.apk",
+    "apkSizeBytes":  18030327,
+    "sha256":  "8672583e343835dd43a03ed9e4e21cf17f91898aedc2807e0b5513c4d0772697",
     "minSdk":  26,
-    "notes":  "Cache-first session list (last-known sessions/workspaces render instantly on cold start, refreshed in the background); launcher quick actions for New session and Usage; plus in-session find and Share-to-DSH from 0.2.6.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.7-preview"
+    "notes":  "Camera capture straight into a chat attachment; cache-first session list; launcher quick actions for New session and Usage; in-session find; Share-to-DSH; plus the 0.2.5-0.2.7 feature set.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.8-preview"
 }
