@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  18,
-    "versionName":  "0.2.16-preview",
-    "tag":  "v0.2.16-preview",
-    "publishedAt":  "2026-10-30T18:40:03Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.16-preview/dsh-mobile-0.2.16-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.16-preview-debug.apk",
+    "versionCode":  19,
+    "versionName":  "0.2.17-preview",
+    "tag":  "v0.2.17-preview",
+    "publishedAt":  "2026-10-30T18:43:51Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.17-preview/dsh-mobile-0.2.17-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.17-preview-debug.apk",
     "apkSizeBytes":  18082967,
-    "sha256":  "ce8d34f4f25645bacf8d0442d7af249175cfbd15c7319dffee8996aad03cb61b",
+    "sha256":  "702d762ca7e67f177577fd17cfdeadd1fdca091d97c7d1e8568de40efa22a48a",
     "minSdk":  26,
-    "notes":  "Export any session as a Markdown transcript from Session Info; plus the approvals/questions inbox, retry-last-prompt, the API 26-30 crash fix, device-aware crash diagnostics, silent launch update check, and live DeepSeek remaining credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.16-preview"
+    "notes":  "Persisted light/dark theme (Hadal Day) and voice dictation into the composer via the system speech recognizer. Plus transcript export, approvals/questions inbox, retry-last-prompt, API 26-30 crash fix, crash diagnostics, silent update check, and live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.17-preview"
 }
