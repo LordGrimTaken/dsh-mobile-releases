@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  1,
+    "versionCode":  3,
+    "versionName":  "0.2.1-preview",
+    "tag":  "v0.2.1-preview",
+    "publishedAt":  "2026-10-30T11:09:33Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.1-preview/dsh-mobile-0.2.1-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.1-preview-debug.apk",
+    "apkSizeBytes":  17375560,
+    "sha256":  "6ec4d8b23c1f06fa49c7736cb49190bb33bece7bc90976bb59c192fd11d6e1cd",
+    "minSdk":  26,
+    "notes":  "# DSH Mobile v0.2.1-preview\n\nAuto-updater + live desktop hookup.\n\n## What's new\n\n- **In-app updates (sideload):** Settings → **Check for updates** (also checked once per day on launch). Fetches `latest.json`, compares `versionCode`, shows release notes, downloads the APK, verifies SHA-256, and hands it to the Android package installer. Requires the \"Install unknown apps\" permission once.\n- **Live desktop sessions:** pair with the host plugin and use the real sessions from your desktop (list, transcript, prompt, SSE stream, approvals/questions, interrupt).\n- **Host plugin installed live:** the DSH host plugin is installed in the desktop profile and serving the mobile API on `127.0.0.1:3543` (owned by `dsh-mobile-host`, verified with real sessions).\n- Release tooling: `tools/publish-update.ps1`, `.github/workflows/release.yml` (build/test/verify on tag; publishing is manual by default to preserve the signing key), docs in `docs/updater.md`.\n\n## Install (bootstrap)\n\nv0.2.0 cannot update itself. Install this release manually once:\n\n1. Download `dsh-mobile-0.2.1-preview-debug.apk` from this release.\n2. Allow install from unknown sources, install it over v0.2.0 (same signing key — no uninstall needed).\n3. From now on, **Settings → Check for updates** handles new builds.\n\n## Live setup\n\n- **USB (works today, full streaming):** connect the phone with USB debugging, run `adb reverse tcp:3543 tcp:3543`, then pair with base URL `http://127.0.0.1:3543` and a code from `POST http://127.0.0.1:3543/mobile/v1/pair/new`.\n- **Wireless/remote (recommended):** install Tailscale on PC + phone, run `tailscale serve --bg 3543`, pair with `https://<pc>.<tailnet>.ts.net`. See `docs/remote-access.md`.\n- **Cloudflare quick tunnel:** HTTP endpoints work, but SSE streaming is buffered by quick tunnels — not recommended for live chat until the app has a polling/WebSocket fallback.\n\nInstall verification: the update is only accepted when its SHA-256 matches `latest.json` and its signature matches the installed app (same debug keystore). Package ID: `dev.dsh.mobile`.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.1-preview"
+}
