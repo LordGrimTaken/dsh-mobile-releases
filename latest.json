@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  7,
-    "versionName":  "0.2.5-preview",
-    "tag":  "v0.2.5-preview",
-    "publishedAt":  "2026-10-30T17:28:54Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.5-preview/dsh-mobile-0.2.5-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.5-preview-debug.apk",
-    "apkSizeBytes":  17995024,
-    "sha256":  "2311b2999b7e2f2fbd289d289775b24a9f0d7108ab21108b3b625e50825b1854",
+    "versionCode":  8,
+    "versionName":  "0.2.6-preview",
+    "tag":  "v0.2.6-preview",
+    "publishedAt":  "2026-10-30T17:32:51Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.6-preview/dsh-mobile-0.2.6-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.6-preview-debug.apk",
+    "apkSizeBytes":  18011504,
+    "sha256":  "46f6206e1e19f735871195b5129cecdf59837a5924775f5d4c126b8380ad9496",
     "minSdk":  26,
-    "notes":  "Usage dashboard (host /usage + native Usage screen), persistent per-session drafts, long-press message actions (copy/share/quote/read aloud), Jump to Latest transcript control, and the 200-idea mobile feature catalog.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.5-preview"
+    "notes":  "In-session find with previous/next match navigation; Share-to-DSH text sheet (send text from Chrome/Notes straight into a session draft); plus the usage dashboard, persistent drafts, message actions, and Jump to Latest from 0.2.5.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.6-preview"
 }
