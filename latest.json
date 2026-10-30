@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  21,
-    "versionName":  "0.2.19-preview",
-    "tag":  "v0.2.19-preview",
-    "publishedAt":  "2026-10-30T18:50:04Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.19-preview/dsh-mobile-0.2.19-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.19-preview-debug.apk",
+    "versionCode":  22,
+    "versionName":  "0.2.20-preview",
+    "tag":  "v0.2.20-preview",
+    "publishedAt":  "2026-10-30T23:57:19Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.20-preview/dsh-mobile-0.2.20-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.20-preview-debug.apk",
     "apkSizeBytes":  18099925,
-    "sha256":  "434a9926e3a137da303155b813f948920c2d9f911dde8911e37dab756a3ff77a",
+    "sha256":  "93eb23c98ab95c7d6cad5c723813a1a37fb8a834292595add9c88fe507fe7f30",
     "minSdk":  26,
-    "notes":  "Pairing doctor: test any host URL against /health before pairing and see reachability/version hints. Plus local notifications, persisted light/dark theme, voice dictation, transcript export, inbox, retry-last-prompt, API 26-30 crash fix, diagnostics, silent updates, and live DeepSeek remaining credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.19-preview"
+    "notes":  "Prompt templates in the chat header (Continue, Plan first, Review diff, Fix build, Write tests, Commit/push, Explain, Summarize) that insert an editable prompt. Plus pairing URL test, notifications, light/dark theme, voice dictation, transcript export, inbox, retry, crash fixes/diagnostics, and live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.20-preview"
 }
