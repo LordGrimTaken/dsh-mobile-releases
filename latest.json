@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  5,
-    "versionName":  "0.2.3-preview",
-    "tag":  "v0.2.3-preview",
-    "publishedAt":  "2026-10-30T13:00:20Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.3-preview/dsh-mobile-0.2.3-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.3-preview-debug.apk",
-    "apkSizeBytes":  18265545,
-    "sha256":  "29322ac18bc743054866e59379ebfb22e3d475f026b82fc6e2e4fc8f7c1f15ea",
+    "versionCode":  6,
+    "versionName":  "0.2.4-preview",
+    "tag":  "v0.2.4-preview",
+    "publishedAt":  "2026-10-30T13:44:12Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.4-preview/dsh-mobile-0.2.4-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.4-preview-debug.apk",
+    "apkSizeBytes":  18044334,
+    "sha256":  "714edbc1174961e68b8476db15973604d2c3e16f66bf59910e2b7a756d4d70a3",
     "minSdk":  26,
-    "notes":  "Session list hides internal/subagent sessions (only your sessions). Pull-to-refresh, attachment retry, reconnect banner, real version string.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.3-preview"
+    "notes":  "Phone-first release: multi-host profiles (add/switch desktop and cloud hosts, Keystore-encrypted tokens), welcome onboarding, validated headless/cloud DSH host, host plugin 0.2.5 (hidden sessions, profile-scoped cache, headless fixes).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.4-preview"
 }
