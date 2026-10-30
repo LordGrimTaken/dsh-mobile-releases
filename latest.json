@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  16,
-    "versionName":  "0.2.14-preview",
-    "tag":  "v0.2.14-preview",
-    "publishedAt":  "2026-10-30T18:26:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.14-preview/dsh-mobile-0.2.14-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.14-preview-debug.apk",
-    "apkSizeBytes":  18066583,
-    "sha256":  "19bbb459fcf2af23fdc27357cde9510e73b3f997a41e8a96858d91352c14c793",
+    "versionCode":  17,
+    "versionName":  "0.2.15-preview",
+    "tag":  "v0.2.15-preview",
+    "publishedAt":  "2026-10-30T18:38:44Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.15-preview/dsh-mobile-0.2.15-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.15-preview-debug.apk",
+    "apkSizeBytes":  18082967,
+    "sha256":  "6d459ae371402d90c42fa3090b2482a922e5a146b34f23b915aa64cc50e72dc9",
     "minSdk":  26,
-    "notes":  "Fix API 26-30 crash in the session-list last-updated label (LocalTime.ofInstant is API 31+); move API 27/29 theme flags into values-v27/v29. Crash diagnostics (app/device/Android/screen metadata) in Settings and on next launch; silent launch update check so opening the app cannot hand you to the package installer. Live DeepSeek remaining-credit balance included.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.14-preview"
+    "notes":  "Retry-last-prompt from the composer error row; approvals/questions inbox across sessions with allow/deny and option answers, plus the 0.2.14 API 26-30 crash fix, device-aware crash diagnostics, silent launch update check, and live DeepSeek remaining-credit balance.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.15-preview"
 }
