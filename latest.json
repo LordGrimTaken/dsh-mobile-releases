@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  4,
-    "versionName":  "0.2.2-preview",
-    "tag":  "v0.2.2-preview",
-    "publishedAt":  "2026-10-30T11:50:14Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.2-preview/dsh-mobile-0.2.2-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.2-preview-debug.apk",
-    "apkSizeBytes":  18640494,
-    "sha256":  "a4c3fd03a8de0cbbca974ded84c5e3429159ec77a6df1df55ca2d3a9391de02a",
+    "versionCode":  5,
+    "versionName":  "0.2.3-preview",
+    "tag":  "v0.2.3-preview",
+    "publishedAt":  "2026-10-30T13:00:20Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.3-preview/dsh-mobile-0.2.3-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.3-preview-debug.apk",
+    "apkSizeBytes":  18265545,
+    "sha256":  "29322ac18bc743054866e59379ebfb22e3d475f026b82fc6e2e4fc8f7c1f15ea",
     "minSdk":  26,
-    "notes":  "# DSH Mobile v0.2.2-preview\n\nAttachments from your phone + the new mobile UI pass.\n\n## What's new\n\n- **Attach documents and images:** paperclip in the composer opens Android's document picker (any file type, images included). Files upload to the host, show as chips with size/remove, and are sent with your prompt (text optional when an attachment is present). Images go through DSH's image policy; files are stored byte-for-byte and referenced through DSH's file-upload path.\n- **Errors are inline, not crashes:** size/policy rejections and unsupported-host (`501`) cases show a clear message.\n- **UI refresh:** the HADAL MINT mobile redesign (new Shell, theme, chat/session-list/sheets) that landed in the repo during this build is included.\n- **Updater:** v0.2.2 is published to the feed; if you are already on v0.2.1 you can update from Settings → Check for updates.\n\n## Important: restart the desktop app once\n\nThe host plugin's new attachment routes only load after the DSH desktop app restarts (the running process still holds the old plugin module; plugin reload was blocked by an HMR transaction). The desktop restart also restarts the in-app agent sessions — they persist and can be reopened.\n\nAfter restarting:\n1. Phone should reconnect automatically (paired state is on disk). If it doesn't, re-pair with a fresh code from `Invoke-RestMethod -Method Post http://127.0.0.1:3543/mobile/v1/pair/new`.\n2. In a session, tap the paperclip, pick a file or image, wait for the chip check, then send.\n\n## Install\n\n- New install/update APK: `dsh-mobile-0.2.2-preview-debug.apk` (same debug signing key as previous builds — installs over v0.2.0/v0.2.1).\n- Limits: 10 MB decoded per attachment, 8 attachments per prompt, 24 h pending expiry.\n- Known: attachment names in sent bubbles are client-side only (they are not part of the transcript schema yet). Reading attachments back to the phone is not implemented.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.2-preview"
+    "notes":  "Session list hides internal/subagent sessions (only your sessions). Pull-to-refresh, attachment retry, reconnect banner, real version string.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.3-preview"
 }
