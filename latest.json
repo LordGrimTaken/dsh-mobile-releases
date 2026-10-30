@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  17,
-    "versionName":  "0.2.15-preview",
-    "tag":  "v0.2.15-preview",
-    "publishedAt":  "2026-10-30T18:38:44Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.15-preview/dsh-mobile-0.2.15-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.15-preview-debug.apk",
+    "versionCode":  18,
+    "versionName":  "0.2.16-preview",
+    "tag":  "v0.2.16-preview",
+    "publishedAt":  "2026-10-30T18:40:03Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.16-preview/dsh-mobile-0.2.16-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.16-preview-debug.apk",
     "apkSizeBytes":  18082967,
-    "sha256":  "6d459ae371402d90c42fa3090b2482a922e5a146b34f23b915aa64cc50e72dc9",
+    "sha256":  "ce8d34f4f25645bacf8d0442d7af249175cfbd15c7319dffee8996aad03cb61b",
     "minSdk":  26,
-    "notes":  "Retry-last-prompt from the composer error row; approvals/questions inbox across sessions with allow/deny and option answers, plus the 0.2.14 API 26-30 crash fix, device-aware crash diagnostics, silent launch update check, and live DeepSeek remaining-credit balance.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.15-preview"
+    "notes":  "Export any session as a Markdown transcript from Session Info; plus the approvals/questions inbox, retry-last-prompt, the API 26-30 crash fix, device-aware crash diagnostics, silent launch update check, and live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.16-preview"
 }
