@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  20,
-    "versionName":  "0.2.18-preview",
-    "tag":  "v0.2.18-preview",
-    "publishedAt":  "2026-10-30T18:48:13Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.18-preview/dsh-mobile-0.2.18-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.18-preview-debug.apk",
+    "versionCode":  21,
+    "versionName":  "0.2.19-preview",
+    "tag":  "v0.2.19-preview",
+    "publishedAt":  "2026-10-30T18:50:04Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.19-preview/dsh-mobile-0.2.19-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.19-preview-debug.apk",
     "apkSizeBytes":  18099925,
-    "sha256":  "a891c34eecf87a49e436cbfe3f00dc6d7408f174ea7a0aa2ec8932e270d54575",
+    "sha256":  "434a9926e3a137da303155b813f948920c2d9f911dde8911e37dab756a3ff77a",
     "minSdk":  26,
-    "notes":  "Local Android notifications for turn completion and waiting approvals/questions, with session deep links and persisted notification toggles. Plus persisted light/dark theme, voice dictation, transcript export, inbox, retry-last-prompt, API 26-30 crash fix, crash diagnostics, silent updates, and live DeepSeek remaining credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.18-preview"
+    "notes":  "Pairing doctor: test any host URL against /health before pairing and see reachability/version hints. Plus local notifications, persisted light/dark theme, voice dictation, transcript export, inbox, retry-last-prompt, API 26-30 crash fix, diagnostics, silent updates, and live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.19-preview"
 }
