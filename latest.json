@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  19,
-    "versionName":  "0.2.17-preview",
-    "tag":  "v0.2.17-preview",
-    "publishedAt":  "2026-10-30T18:43:51Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.17-preview/dsh-mobile-0.2.17-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.17-preview-debug.apk",
-    "apkSizeBytes":  18082967,
-    "sha256":  "702d762ca7e67f177577fd17cfdeadd1fdca091d97c7d1e8568de40efa22a48a",
+    "versionCode":  20,
+    "versionName":  "0.2.18-preview",
+    "tag":  "v0.2.18-preview",
+    "publishedAt":  "2026-10-30T18:48:13Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.18-preview/dsh-mobile-0.2.18-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.18-preview-debug.apk",
+    "apkSizeBytes":  18099925,
+    "sha256":  "a891c34eecf87a49e436cbfe3f00dc6d7408f174ea7a0aa2ec8932e270d54575",
     "minSdk":  26,
-    "notes":  "Persisted light/dark theme (Hadal Day) and voice dictation into the composer via the system speech recognizer. Plus transcript export, approvals/questions inbox, retry-last-prompt, API 26-30 crash fix, crash diagnostics, silent update check, and live DeepSeek remaining credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.17-preview"
+    "notes":  "Local Android notifications for turn completion and waiting approvals/questions, with session deep links and persisted notification toggles. Plus persisted light/dark theme, voice dictation, transcript export, inbox, retry-last-prompt, API 26-30 crash fix, crash diagnostics, silent updates, and live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.18-preview"
 }
