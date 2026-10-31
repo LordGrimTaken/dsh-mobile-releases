@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  42,
-    "versionName":  "0.2.40-preview",
-    "tag":  "v0.2.40-preview",
-    "publishedAt":  "2026-10-31T02:38:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.40-preview/dsh-mobile-0.2.40-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.40-preview-debug.apk",
-    "apkSizeBytes":  18232321,
-    "sha256":  "0329e5ff321a5dc2ef4abbb5d770319631839a1a92855026f78109fced4f8d4a",
+    "versionCode":  43,
+    "versionName":  "0.2.41-preview",
+    "tag":  "v0.2.41-preview",
+    "publishedAt":  "2026-10-31T02:53:19Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.41-preview/dsh-mobile-0.2.41-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.41-preview-debug.apk",
+    "apkSizeBytes":  18248705,
+    "sha256":  "e8fbe4be087528c835d20de49b7c203190702a77fd67e724d83f3248adc2e316",
     "minSdk":  26,
-    "notes":  "Connection forensics: a rolling event log in Connection diagnostics shows network/VPN transitions, reconnect reasons, stream errors, and foreground/background events; health failures are categorised as DNS/TLS/timeout/refused; a warning appears when a Tailscale Serve URL is paired but Android reports no VPN; Copy diagnostics includes the log. Plus 0.2.39 network auto-heal and continuous voice dictation.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.40-preview"
+    "notes":  "Offline transcript cache: opening a session seeds the last cached 100-message transcript before the network call, so a Tailscale drop still shows the conversation; the host fetch replaces it and refreshes the cache (30 sessions/host). Reconnect banner now says offline · retrying automatically with a Retry now action. Plus connection events/health diagnostics, network auto-heal, continuous voice dictation, usage CSV share, transcript file share, and background-sync interval.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.41-preview"
 }
