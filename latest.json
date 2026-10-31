@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  25,
-    "versionName":  "0.2.23-preview",
-    "tag":  "v0.2.23-preview",
-    "publishedAt":  "2026-10-31T00:14:29Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.23-preview/dsh-mobile-0.2.23-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.23-preview-debug.apk",
-    "apkSizeBytes":  18116445,
-    "sha256":  "ec1c8cd4755475e79900363b789ce34336fa73977fe2c157f47531786f9be2f9",
+    "versionCode":  26,
+    "versionName":  "0.2.24-preview",
+    "tag":  "v0.2.24-preview",
+    "publishedAt":  "2026-10-31T00:17:39Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.24-preview/dsh-mobile-0.2.24-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.24-preview-debug.apk",
+    "apkSizeBytes":  18116441,
+    "sha256":  "7d5ffca335e00e64151e01ac71973921a00e7c7579d19865694b1552ed262a24",
     "minSdk":  26,
-    "notes":  "Recent prompt history in the templates sheet (last 5 sendable prompts, tap to reuse) plus the live widget status, inbox notification action, app lock, templates, pairing test, notifications, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.23-preview"
+    "notes":  "Saved prompt snippets: save the current draft as a reusable snippet from the templates sheet, insert or delete saved snippets. Plus recent prompts, live widget status, inbox notification action, app lock, templates, pairing test, notifications, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.24-preview"
 }
