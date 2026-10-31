@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  83,
-    "versionName":  "0.2.81-preview",
-    "tag":  "v0.2.81-preview",
-    "publishedAt":  "2026-10-31T06:54:16Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.81-preview/dsh-mobile-0.2.81-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.81-preview-debug.apk",
+    "versionCode":  84,
+    "versionName":  "0.2.82-preview",
+    "tag":  "v0.2.82-preview",
+    "publishedAt":  "2026-10-31T06:58:25Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.82-preview/dsh-mobile-0.2.82-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.82-preview-debug.apk",
     "apkSizeBytes":  18363709,
-    "sha256":  "7927b7c184988511683292af2f8db2927df17e850f0dcde5e1031503f5813755",
+    "sha256":  "5e935e17a744169e34c6e6d50c6998e8b155bd9a8f015430ce0a650016b4d21c",
     "minSdk":  26,
-    "notes":  "Goal controls now include Pause: the GOAL banner offers Resume while paused/blocked/disarmed and Pause while active, backed by new POST /sessions/{id}/goal/pause. The banner also re-reads goal state every 20 s so desktop changes and automatic rounds stay in sync. Still includes upload progress/cancel and the streaming upload OOM fix.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.81-preview"
+    "notes":  "Image attachment thumbnails: image chips in the composer decode a small (96px-bounded) preview so camera photos and screenshots are recognizable before sending; the thumbnail is kept after upload, non-images keep the paperclip icon. Plus goal Resume/Pause banner, upload progress/cancel, and the streaming upload OOM fix.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.82-preview"
 }
