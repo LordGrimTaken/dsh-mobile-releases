@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  68,
-    "versionName":  "0.2.66-preview",
-    "tag":  "v0.2.66-preview",
-    "publishedAt":  "2026-10-31T05:05:32Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.66-preview/dsh-mobile-0.2.66-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.66-preview-debug.apk",
+    "versionCode":  69,
+    "versionName":  "0.2.67-preview",
+    "tag":  "v0.2.67-preview",
+    "publishedAt":  "2026-10-31T05:09:13Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.67-preview/dsh-mobile-0.2.67-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.67-preview-debug.apk",
     "apkSizeBytes":  18314485,
-    "sha256":  "54fceb7946de7f59704a60449f7f82f4339c90350086f268fedc2cc551c5f7a8",
+    "sha256":  "ad8ec0491cb70605e2b1b04344264bbb326580e72fa7d8a2b001fa8706b1a5d1",
     "minSdk":  26,
-    "notes":  "Continue working: long-press an idle session for a one-tap Continue working action that opens it and sends a minimal continue prompt. Plus notification grouping/muted tags, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, background queue delivery, shortcuts, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.66-preview"
+    "notes":  "Approval capability clarity: the Inbox now explains when the host doesn't expose approval/question bridging (resolve on desktop), and Connection diagnostics lists each bridge as available/unsupported. Plus Continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, queue delivery, shortcuts, timestamps, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, and connection diagnostics.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.67-preview"
 }
