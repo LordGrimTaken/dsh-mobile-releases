@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  94,
-    "versionName":  "0.2.92-preview",
-    "tag":  "v0.2.92-preview",
-    "publishedAt":  "2026-10-31T08:45:31Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.92-preview/dsh-mobile-0.2.92-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.92-preview-debug.apk",
-    "apkSizeBytes":  18429245,
-    "sha256":  "ede5fa8bf7211a58bdf2c46cde26813ba1ac40feabd1f85ebf5d7a82bb7f24f5",
+    "versionCode":  95,
+    "versionName":  "0.2.93-preview",
+    "tag":  "v0.2.93-preview",
+    "publishedAt":  "2026-10-31T08:53:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.93-preview/dsh-mobile-0.2.93-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.93-preview-debug.apk",
+    "apkSizeBytes":  18445629,
+    "sha256":  "0042b6044c075201dd97fb022644eefc3486502a036463d2f1580646a8759573",
     "minSdk":  26,
-    "notes":  "Mark a goal complete from the phone: the GOAL banner gains a Complete action (active/paused/blocked) with confirmation, backed by POST /sessions/{id}/goal/complete; the goal becomes complete/disarmed and goal.changed operation complete fires. The app sends the goal id/revision it displayed so a stale dialog is rejected instead of completing a different current goal. Fake-host complete route (30 goal checks) and contract docs updated.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.92-preview"
+    "notes":  "Answer approvals from the phone: the host bridges approval/request and races a deferred phone decision against the desktop (first answer wins), exposing readOnly:false so Allow once/Deny work in the Inbox, inline card, notification actions and deep links; lost races clear the stale card with 'Already answered on the desktop'. Disable with approvals.mobileAnswer:false to keep desktop-only. Questions remain read-only. Fake-host answer mode (7 checks) is now in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.93-preview"
 }
