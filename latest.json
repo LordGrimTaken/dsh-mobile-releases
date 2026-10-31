@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  110,
-    "versionName":  "0.2.108-preview",
-    "tag":  "v0.2.108-preview",
-    "publishedAt":  "2026-10-31T11:13:03Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.108-preview/dsh-mobile-0.2.108-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.108-preview-debug.apk",
-    "apkSizeBytes":  18855261,
-    "sha256":  "5491c7dcc940263a86b6f8ddeec857785215e711e6be3747424624f3d45f6f30",
+    "versionCode":  111,
+    "versionName":  "0.2.109-preview",
+    "tag":  "v0.2.109-preview",
+    "publishedAt":  "2026-10-31T11:23:34Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.109-preview/dsh-mobile-0.2.109-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.109-preview-debug.apk",
+    "apkSizeBytes":  18888029,
+    "sha256":  "7e72155019f2f512bb5900b1ed8986bb36bd842a5535b009efab1f9a881a5378",
     "minSdk":  26,
-    "notes":  "Model & thinking controls: chat top-bar model chip + 'Model & thinking' dialog. Host GET /models exposes the catalog (provider groups, per-model thinking efforts, redacted provider failures) and GET/PUT /sessions/{id}/model reads or changes a session's selection (cold reads from the durable log without activation; live-only writes; unavailable models validated). A prominent callout warns that changing the model also becomes the DSH default for new sessions. Fake-host models fixtures/tests (9; full fake suite 134) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.108-preview"
+    "notes":  "Host queue panel: chat shows a 'Queue · N, Waiting on the host' strip backed by GET/PATCH /sessions/{id}/queue. Review prompts waiting in the live agent's inbox, edit text (attachment prompts are blocked so attachments aren't dropped), remove with confirmation, or steer a next-turn prompt into the running turn while it works. Clear separation from the phone's local offline outbox, vanished-item refresh, cold/unsupported states, 100-item cap note. Fake-host queue fixtures/tests (9; full fake suite 143) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.109-preview"
 }
