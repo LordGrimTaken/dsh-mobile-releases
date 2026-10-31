@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  118,
-    "versionName":  "0.2.116-preview",
-    "tag":  "v0.2.116-preview",
-    "publishedAt":  "2026-10-31T14:27:24Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.116-preview/dsh-mobile-0.2.116-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.116-preview-debug.apk",
-    "apkSizeBytes":  19020201,
-    "sha256":  "558a9f1590cb663bc28ce69ecd7ac0e3b55a1fd20082ad23b1b62fe6659d4772",
+    "versionCode":  119,
+    "versionName":  "0.2.117-preview",
+    "tag":  "v0.2.117-preview",
+    "publishedAt":  "2026-10-31T14:39:46Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.117-preview/dsh-mobile-0.2.117-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.117-preview-debug.apk",
+    "apkSizeBytes":  19036589,
+    "sha256":  "d239a68438f00f1d5ede862b8afcd1b71b190b0cbc47a32a6b45979ff184ad3a",
     "minSdk":  26,
-    "notes":  "Inline question reply: question notifications show the prompt and a RemoteInput 'Reply' action so you can answer free-text without opening the app. A non-exported receiver validates the action, re-checks app lock, loads the encrypted host profile, sends with an 8.5s timeout and updates the same notification (Answer sent / Already answered / Couldn't send). Replies are withheld while app lock is on; lock-screen public versions hide the prompt; per-question notification ids. Also includes a regression test for the 0.2.115 startup NPE fix.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.116-preview"
+    "notes":  "Host search pagination: GET /search accepts offset (0..500) and returns offset/nextOffset/hasMore with stable semantics; an empty page ends pagination and truncated keeps its scan-cap meaning. The app adds a Load more row that appends/dedupes pages, resets on query/filter changes, guards stale cursors, keeps hits with an inline Retry on failure, and falls back to single-page behavior on older hosts.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.117-preview"
 }
