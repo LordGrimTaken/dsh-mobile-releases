@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  86,
-    "versionName":  "0.2.84-preview",
-    "tag":  "v0.2.84-preview",
-    "publishedAt":  "2026-10-31T07:16:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.84-preview/dsh-mobile-0.2.84-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.84-preview-debug.apk",
+    "versionCode":  87,
+    "versionName":  "0.2.85-preview",
+    "tag":  "v0.2.85-preview",
+    "publishedAt":  "2026-10-31T07:28:38Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.85-preview/dsh-mobile-0.2.85-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.85-preview-debug.apk",
     "apkSizeBytes":  18380093,
-    "sha256":  "2e412b6e9c715c63a97cd2f8c96e21a7e209a0a0cf3eb257b7ebc4222b835427",
+    "sha256":  "0b9cda5cde3992c3a2a489d58f17cd750d226599ee895bb8e4e7195f5201afa9",
     "minSdk":  26,
-    "notes":  "Create a goal from Android: when a live session has no goal, the GOAL banner shows Set goal; a dialog captures objective and max rounds and calls POST /sessions/{id}/goal (ctx.goals.create). Existing non-complete goals are rejected with a clear error. Plus Pause/Resume, 20s banner refresh, image thumbnails, cache management, and upload progress/cancel.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.84-preview"
+    "notes":  "Team batch: app-wide Interface text scale; widget shows goal phase for the most recent session; goal.changed SSE now updates the GOAL banner instantly; share connection diagnostics; fake-host goal endpoints + tests; independent QA report. Also includes goal create/pause/resume controls and image thumbnails.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.85-preview"
 }
