@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  115,
-    "versionName":  "0.2.113-preview",
-    "tag":  "v0.2.113-preview",
-    "publishedAt":  "2026-10-31T13:31:01Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.113-preview/dsh-mobile-0.2.113-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.113-preview-debug.apk",
-    "apkSizeBytes":  19003777,
-    "sha256":  "06579ef48100b60c89a57c7537edd9b9059f81d84b2b30b00c3676a91a66399d",
+    "versionCode":  116,
+    "versionName":  "0.2.114-preview",
+    "tag":  "v0.2.114-preview",
+    "publishedAt":  "2026-10-31T13:58:17Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.114-preview/dsh-mobile-0.2.114-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.114-preview-debug.apk",
+    "apkSizeBytes":  19020157,
+    "sha256":  "e0172d6711f6248c0f09102edf85d90784c403861b9e9809399d76a73f218fda",
     "minSdk":  26,
-    "notes":  "Crash-loop safe mode: a launcher 'Safe mode' shortcut and dshmobile://safe-mode open a minimal recovery screen that skips the normal app shell - Start normally, Clear caches only, Reset appearance/notification settings, Share crash log, or open Android App info. A crash recorder (3 crashes in 10 min, synchronous write, idempotent handlers) routes crash-looping launches into safe mode before AppState/Compose; a normal run clears the counter after 60s. Host pairing, drafts, queued prompts and app lock are always preserved. Also includes Tailscale one-tap sign-in and recovery links in 0.2.112.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.113-preview"
+    "notes":  "Tailscale add-host: Settings -> Hosts 'Add host' (and the Hosts card) now offers 'Sign in with Tailscale' plus a recovery-code fallback alongside desktop-code pairing; it stores/selects the host profile through the normal encrypted path and leaves onboarding untouched. Safe mode gains a Settings -> Diagnostics entry, dark platform theme, fallback views, a polite live region and TalkBack labels for every recovery action. Also includes 0.2.113 crash-loop safe mode and 0.2.112 Tailscale one-tap sign-in.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.114-preview"
 }
