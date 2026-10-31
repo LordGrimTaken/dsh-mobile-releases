@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  101,
-    "versionName":  "0.2.99-preview",
-    "tag":  "v0.2.99-preview",
-    "publishedAt":  "2026-10-31T09:45:34Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.99-preview/dsh-mobile-0.2.99-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.99-preview-debug.apk",
-    "apkSizeBytes":  18576733,
-    "sha256":  "543d6112b3a2bee49677a24645b32ceff1f8e1edee84ff879906329649dcd532",
+    "versionCode":  102,
+    "versionName":  "0.2.100-preview",
+    "tag":  "v0.2.100-preview",
+    "publishedAt":  "2026-10-31T09:54:03Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.100-preview/dsh-mobile-0.2.100-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.100-preview-debug.apk",
+    "apkSizeBytes":  18625885,
+    "sha256":  "c047d426bd23c3c001c7cfe465eb6a3ada4b5db47d9af1df61a58529d911a545",
     "minSdk":  26,
-    "notes":  "Schedule editing + 'Schedule this prompt': PATCH /schedules/{id} edits title/instruction and after/daily timing (session-scoped), and the schedules screen gains an Edit dialog that only sends timing when changed, so renaming cannot reschedule. Chat composer can schedule the current draft for the session with a default title and duplicate-submit guard. Fake-host update support with 12 schedule checks.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.99-preview"
+    "notes":  "Host session management: rename a live session on the host; archive/unarchive ordinary sessions (active work is refused, never stopped); new GET /sessions/archived and an Archived screen with Unarchive. Archived rows disappear from the normal list everywhere, and long-press gains Rename on host / Archive on host with confirmations. Fake-host session-management tests (8 checks) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.100-preview"
 }
