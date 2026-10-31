@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  29,
-    "versionName":  "0.2.27-preview",
-    "tag":  "v0.2.27-preview",
-    "publishedAt":  "2026-10-31T00:29:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.27-preview/dsh-mobile-0.2.27-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.27-preview-debug.apk",
-    "apkSizeBytes":  18149213,
-    "sha256":  "f42ab06eaa5bdcfbc7600578c429f576132b2868ea22b786330cebf260d2b000",
+    "versionCode":  30,
+    "versionName":  "0.2.28-preview",
+    "tag":  "v0.2.28-preview",
+    "publishedAt":  "2026-10-31T00:33:14Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.28-preview/dsh-mobile-0.2.28-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.28-preview-debug.apk",
+    "apkSizeBytes":  18150101,
+    "sha256":  "ad5b17c130182f180f947e5903c28e7f27ad748cafa3b42e4f6c701ccc3da8d2",
     "minSdk":  26,
-    "notes":  "Queued prompts now survive process death and reconnect; richer markdown rendering for headings, bullet/numbered lists, quotes, and rules. Plus approval notification actions, multi-file attach, hidden-session manager, snippets, recent prompts, widget status, app lock, templates, pairing test, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.27-preview"
+    "notes":  "Long-press session actions (pin, hide, copy ID, open), screenshot/recents protection when app lock is enabled, and an Inbox launcher shortcut. Plus persistent queue, richer markdown, notification actions, multi-file attach, hidden-session manager, snippets, recent prompts, widget status, app lock, templates, pairing test, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.28-preview"
 }
