@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  46,
-    "versionName":  "0.2.44-preview",
-    "tag":  "v0.2.44-preview",
-    "publishedAt":  "2026-10-31T03:13:00Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.44-preview/dsh-mobile-0.2.44-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.44-preview-debug.apk",
-    "apkSizeBytes":  18265085,
-    "sha256":  "3536b056d89e3c596441e1706c8d4dfed2ff3f1a884fb1b5bb05124d1fe01f68",
+    "versionCode":  47,
+    "versionName":  "0.2.45-preview",
+    "tag":  "v0.2.45-preview",
+    "publishedAt":  "2026-10-31T03:20:14Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.45-preview/dsh-mobile-0.2.45-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.45-preview-debug.apk",
+    "apkSizeBytes":  18265089,
+    "sha256":  "14770f801d1cdb901dc5f1279cbcc850aad9ccc4d47592a3308d619e11977565",
     "minSdk":  26,
-    "notes":  "Global cached-message search: typing in the session search now also searches transcripts cached on the phone and shows a CACHED MESSAGES section with title, matching snippet, and jump-to-session. Runs locally with a debounce; no host call. Plus queue editing/count, cancelable send queue, offline transcript cache, connection diagnostics/auto-heal, continuous voice dictation, usage CSV and transcript file sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.44-preview"
+    "notes":  "Voice: new Settings → Voice → Prefer offline recognition toggle requests an on-device speech model, avoiding network/VPN audio stalls when a language pack is installed; clear error if offline speech is unavailable. Plus global cached-message search, cancelable queue with edit/count, offline transcript cache, connection diagnostics/auto-heal, usage CSV share, transcript .md share, and background-sync interval.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.45-preview"
 }
