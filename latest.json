@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  111,
-    "versionName":  "0.2.109-preview",
-    "tag":  "v0.2.109-preview",
-    "publishedAt":  "2026-10-31T11:23:34Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.109-preview/dsh-mobile-0.2.109-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.109-preview-debug.apk",
-    "apkSizeBytes":  18888029,
-    "sha256":  "7e72155019f2f512bb5900b1ed8986bb36bd842a5535b009efab1f9a881a5378",
+    "versionCode":  112,
+    "versionName":  "0.2.110-preview",
+    "tag":  "v0.2.110-preview",
+    "publishedAt":  "2026-10-31T11:34:15Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.110-preview/dsh-mobile-0.2.110-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.110-preview-debug.apk",
+    "apkSizeBytes":  18904413,
+    "sha256":  "51f26a8306a18ae2a6945cf23281802f114ee4000109785137db77ae9aefae5c",
     "minSdk":  26,
-    "notes":  "Host queue panel: chat shows a 'Queue · N, Waiting on the host' strip backed by GET/PATCH /sessions/{id}/queue. Review prompts waiting in the live agent's inbox, edit text (attachment prompts are blocked so attachments aren't dropped), remove with confirmation, or steer a next-turn prompt into the running turn while it works. Clear separation from the phone's local offline outbox, vanished-item refresh, cold/unsupported states, 100-item cap note. Fake-host queue fixtures/tests (9; full fake suite 143) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.109-preview"
+    "notes":  "Conversation fork: POST /sessions/{id}/fork creates a new session from the latest completed turn or an exact durable event boundary; session messages now carry optional seq. The phone adds session-sheet 'Fork conversation' and message 'Fork from here' actions with confirmations, refreshes the list and opens the new fork (or shows its id if not listed yet), maps unavailable boundaries/errors clearly and warns on workspace-attach failure. Forks copy prefix history only; the source is untouched and never activated. Fake-host fork fixtures/tests (7; full fake suite 150) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.110-preview"
 }
