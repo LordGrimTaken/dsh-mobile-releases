@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  116,
-    "versionName":  "0.2.114-preview",
-    "tag":  "v0.2.114-preview",
-    "publishedAt":  "2026-10-31T13:58:17Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.114-preview/dsh-mobile-0.2.114-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.114-preview-debug.apk",
+    "versionCode":  117,
+    "versionName":  "0.2.115-preview",
+    "tag":  "v0.2.115-preview",
+    "publishedAt":  "2026-10-31T14:07:28Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.115-preview/dsh-mobile-0.2.115-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.115-preview-debug.apk",
     "apkSizeBytes":  19020157,
-    "sha256":  "e0172d6711f6248c0f09102edf85d90784c403861b9e9809399d76a73f218fda",
+    "sha256":  "6d351dacd36c8a4c6a0efeadd4b396a4970aba86b9c5bbbc105521cc759be90c",
     "minSdk":  26,
-    "notes":  "Tailscale add-host: Settings -> Hosts 'Add host' (and the Hosts card) now offers 'Sign in with Tailscale' plus a recovery-code fallback alongside desktop-code pairing; it stores/selects the host profile through the normal encrypted path and leaves onboarding untouched. Safe mode gains a Settings -> Diagnostics entry, dark platform theme, fallback views, a polite live region and TalkBack labels for every recovery action. Also includes 0.2.113 crash-loop safe mode and 0.2.112 Tailscale one-tap sign-in.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.114-preview"
+    "notes":  "Hotfix: fixes the startup crash on a paired host (NPE in AppState.startRemote during construction because lastGoalChange/presetRoster/presetsLoading were initialized after the init block). The app should no longer crash-loop on launch after updating. Keeps crash-loop safe mode, Tailscale one-tap/add-host, recovery links, and everything from 0.2.114.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.115-preview"
 }
