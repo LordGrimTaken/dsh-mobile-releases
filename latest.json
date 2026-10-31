@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  96,
-    "versionName":  "0.2.94-preview",
-    "tag":  "v0.2.94-preview",
-    "publishedAt":  "2026-10-31T09:05:56Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.94-preview/dsh-mobile-0.2.94-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.94-preview-debug.apk",
+    "versionCode":  97,
+    "versionName":  "0.2.95-preview",
+    "tag":  "v0.2.95-preview",
+    "publishedAt":  "2026-10-31T09:13:40Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.95-preview/dsh-mobile-0.2.95-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.95-preview-debug.apk",
     "apkSizeBytes":  18445629,
-    "sha256":  "0b0dd06a58470ceabdeecb728a423d9f3b83d09809c60a3ba08d5fda1953a46e",
+    "sha256":  "9d39717cd7855a7249cff5d8448cc74a6b6112602947fb9f33079229d0b5e6ee",
     "minSdk":  26,
-    "notes":  "Answer questions from the phone: the host question bridge accepts option answers per row, emits question.resolved, and returns the full answers batch to the agent when every question in the call is answered. Desktop remains a competing answerer and the first whole answer wins; questions.mobileAnswer:false restores read-only. Lost-race errors hide only the raced question and show 'Already answered on the desktop'. Fake-host question-answer mode (8 checks) is now in CI; free-text questions still require the desktop.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.94-preview"
+    "notes":  "Free-text question answers: optionless questions now show a text field + Send on the phone, and option questions gain an 'Other…' custom answer. Answers are trimmed/capped and sent as DSH custom answers; one in-flight answer prevents double sends and multi-question batches keep remaining rows. Fake-host free-text fixture and checks (9 question-answer checks) updated.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.95-preview"
 }
