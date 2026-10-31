@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  119,
-    "versionName":  "0.2.117-preview",
-    "tag":  "v0.2.117-preview",
-    "publishedAt":  "2026-10-31T14:39:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.117-preview/dsh-mobile-0.2.117-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.117-preview-debug.apk",
-    "apkSizeBytes":  19036589,
-    "sha256":  "d239a68438f00f1d5ede862b8afcd1b71b190b0cbc47a32a6b45979ff184ad3a",
+    "versionCode":  120,
+    "versionName":  "0.2.118-preview",
+    "tag":  "v0.2.118-preview",
+    "publishedAt":  "2026-10-31T15:32:29Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.118-preview/dsh-mobile-0.2.118-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.118-preview-debug.apk",
+    "apkSizeBytes":  19052973,
+    "sha256":  "2cc7666e844dd083130007086d8e180b4de87083a1b7836b34376f920652263c",
     "minSdk":  26,
-    "notes":  "Host search pagination: GET /search accepts offset (0..500) and returns offset/nextOffset/hasMore with stable semantics; an empty page ends pagination and truncated keeps its scan-cap meaning. The app adds a Load more row that appends/dedupes pages, resets on query/filter changes, guards stale cursors, keeps hits with an inline Retry on failure, and falls back to single-page behavior on older hosts.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.117-preview"
+    "notes":  "Image viewer Save & Copy: Save writes the picture to Pictures/DSH Mobile (MediaStore on Android 10+, SAF picker on 8-9) with byte/declared-MIME sniffing so JPEG-named-PNG files save correctly; Copy puts a read-scoped FileProvider URI on the clipboard. Missing cached files re-download and every outcome has a toast. No new permissions. Also includes host search usability fixes (tool-result images no longer starve search; 8s budget, semantic text reads, per-session cap, scanIncomplete/scannedSessions) and host 0.2.7 tool-image attachments.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.118-preview"
 }
