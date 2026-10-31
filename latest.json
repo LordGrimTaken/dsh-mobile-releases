@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  67,
-    "versionName":  "0.2.65-preview",
-    "tag":  "v0.2.65-preview",
-    "publishedAt":  "2026-10-31T05:01:18Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.65-preview/dsh-mobile-0.2.65-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.65-preview-debug.apk",
+    "versionCode":  68,
+    "versionName":  "0.2.66-preview",
+    "tag":  "v0.2.66-preview",
+    "publishedAt":  "2026-10-31T05:05:32Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.66-preview/dsh-mobile-0.2.66-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.66-preview-debug.apk",
     "apkSizeBytes":  18314485,
-    "sha256":  "27148256fe9bbcc119950c5fe556c434c6ec6e1286aab170a3d7f79e97a74ff2",
+    "sha256":  "54fceb7946de7f59704a60449f7f82f4339c90350086f268fedc2cc551c5f7a8",
     "minSdk":  26,
-    "notes":  "Notification grouping and muted tags: 2+ active turn/input alerts are grouped under a DSH Mobile summary that opens the Inbox; muted sessions show a muted tag on the row. Plus long-message collapse, voice language picker, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, background queue delivery, shortcuts, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.65-preview"
+    "notes":  "Continue working: long-press an idle session for a one-tap Continue working action that opens it and sends a minimal continue prompt. Plus notification grouping/muted tags, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, background queue delivery, shortcuts, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.66-preview"
 }
