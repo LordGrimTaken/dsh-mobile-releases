@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  35,
-    "versionName":  "0.2.33-preview",
-    "tag":  "v0.2.33-preview",
-    "publishedAt":  "2026-10-31T00:53:02Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.33-preview/dsh-mobile-0.2.33-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.33-preview-debug.apk",
-    "apkSizeBytes":  18182997,
-    "sha256":  "23369cd36003a6123a105931aa4960634bff7363b98b848d8784d8d0e6db3b5f",
+    "versionCode":  36,
+    "versionName":  "0.2.34-preview",
+    "tag":  "v0.2.34-preview",
+    "publishedAt":  "2026-10-31T00:58:15Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.34-preview/dsh-mobile-0.2.34-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.34-preview-debug.apk",
+    "apkSizeBytes":  18183001,
+    "sha256":  "44446ffd0b16896667ad30cd986946caefbcc0d000a0f991f9d5c3f050b3d1e2",
     "minSdk":  26,
-    "notes":  "Usage polish: copy a full usage summary, low-credit warning when the remaining balance drops under 5, and clearer balance-source text. Notification diagnostics gain Clear notifications; app lock applies screenshot protection immediately; session status filter persists across launches. Plus background sync, status filters, Markdown links, update banner, session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden sessions, snippets, widget status, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.33-preview"
+    "notes":  "Send while working: the composer keeps a Send button plus a separate Stop control, sends immediately into the host's queue while the agent is busy, and shows an IN QUEUE preview of each queued message until the turn goes idle. Plus usage copy/warning, notification diagnostics/clear, app lock secure window, persistent status filters, background sync, status filters, Markdown links, update banner, session actions, persistent queue, rich markdown, hidden sessions, snippets, widget status, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.34-preview"
 }
