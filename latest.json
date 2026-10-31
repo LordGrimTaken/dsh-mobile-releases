@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  33,
-    "versionName":  "0.2.31-preview",
-    "tag":  "v0.2.31-preview",
-    "publishedAt":  "2026-10-31T00:43:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.31-preview/dsh-mobile-0.2.31-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.31-preview-debug.apk",
+    "versionCode":  34,
+    "versionName":  "0.2.32-preview",
+    "tag":  "v0.2.32-preview",
+    "publishedAt":  "2026-10-31T00:48:11Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.32-preview/dsh-mobile-0.2.32-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.32-preview-debug.apk",
     "apkSizeBytes":  18166617,
-    "sha256":  "08222137de201b6e8c855c7704d0fe9a8f79cdd8ed9206353c4f58f0f0abed65",
+    "sha256":  "2d2d45aa3801b0f35b2739c2c298f20b33ca8f327950d0f509ca701d81294817",
     "minSdk":  26,
-    "notes":  "Session-list status filters (all / working / idle / unread) and usage sessions sorted by token consumption. Plus background sync service, Markdown links, update banner, session actions, secure window, inbox shortcut, queue persistence, rich markdown, notification actions, hidden-session manager, snippets, widget status, app lock, templates, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.31-preview"
+    "notes":  "Notification diagnostics in Settings: permission state plus a Send test notification button. Verified background sync runs as a foreground service on a live-paired emulator (ongoing background-sync notification, dataSync FGS). Plus status filters, usage sorting, Markdown links, update banner, session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden-session manager, snippets, widget status, app lock, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.32-preview"
 }
