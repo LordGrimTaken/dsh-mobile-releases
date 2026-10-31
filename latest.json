@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  36,
-    "versionName":  "0.2.34-preview",
-    "tag":  "v0.2.34-preview",
-    "publishedAt":  "2026-10-31T00:58:15Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.34-preview/dsh-mobile-0.2.34-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.34-preview-debug.apk",
-    "apkSizeBytes":  18183001,
-    "sha256":  "44446ffd0b16896667ad30cd986946caefbcc0d000a0f991f9d5c3f050b3d1e2",
+    "versionCode":  37,
+    "versionName":  "0.2.35-preview",
+    "tag":  "v0.2.35-preview",
+    "publishedAt":  "2026-10-31T01:07:41Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.35-preview/dsh-mobile-0.2.35-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.35-preview-debug.apk",
+    "apkSizeBytes":  18183101,
+    "sha256":  "08fcdb82478107b71f9162c417eaf2f13d661f42815f5d9d359598ea80eb0302",
     "minSdk":  26,
-    "notes":  "Send while working: the composer keeps a Send button plus a separate Stop control, sends immediately into the host's queue while the agent is busy, and shows an IN QUEUE preview of each queued message until the turn goes idle. Plus usage copy/warning, notification diagnostics/clear, app lock secure window, persistent status filters, background sync, status filters, Markdown links, update banner, session actions, persistent queue, rich markdown, hidden sessions, snippets, widget status, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.34-preview"
+    "notes":  "Share-sheet image ingest: send one or several images from Gallery/Photos to DSH Mobile; they become normal composer attachments (10 MB limit, 8-file cap) for the current or most recent session. Plus send-while-working queue previews, usage copy/warning, notification diagnostics, background sync, status filters, Markdown links, update banner, session actions, rich markdown, hidden sessions, snippets, widget status, app lock, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.35-preview"
 }
