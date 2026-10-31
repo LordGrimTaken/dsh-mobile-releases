@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  69,
-    "versionName":  "0.2.67-preview",
-    "tag":  "v0.2.67-preview",
-    "publishedAt":  "2026-10-31T05:09:13Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.67-preview/dsh-mobile-0.2.67-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.67-preview-debug.apk",
+    "versionCode":  70,
+    "versionName":  "0.2.68-preview",
+    "tag":  "v0.2.68-preview",
+    "publishedAt":  "2026-10-31T05:11:08Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.68-preview/dsh-mobile-0.2.68-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.68-preview-debug.apk",
     "apkSizeBytes":  18314485,
-    "sha256":  "ad8ec0491cb70605e2b1b04344264bbb326580e72fa7d8a2b001fa8706b1a5d1",
+    "sha256":  "37a6ebd31b8b640885d7e1a150e4ba1c1b32724b87c4b71c383de75fbfc01c56",
     "minSdk":  26,
-    "notes":  "Approval capability clarity: the Inbox now explains when the host doesn't expose approval/question bridging (resolve on desktop), and Connection diagnostics lists each bridge as available/unsupported. Plus Continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, queue delivery, shortcuts, timestamps, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, and connection diagnostics.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.67-preview"
+    "notes":  "Fix OutOfMemoryError when attaching a screen recording. Uploads stream base64 directly into the request body instead of building one giant String (a 43 MB file became a 57M-char String = 114 MB, then kotlinx copied it again = 241 MB allocation in a 256 MB heap). Peak extra memory is now a 12 KB chunk. Client attachment cap raised to 64 MB; the host accepts 200 MB.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.68-preview"
 }
