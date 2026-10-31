@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  64,
-    "versionName":  "0.2.62-preview",
-    "tag":  "v0.2.62-preview",
-    "publishedAt":  "2026-10-31T04:48:59Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.62-preview/dsh-mobile-0.2.62-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.62-preview-debug.apk",
+    "versionCode":  65,
+    "versionName":  "0.2.63-preview",
+    "tag":  "v0.2.63-preview",
+    "publishedAt":  "2026-10-31T04:53:37Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.63-preview/dsh-mobile-0.2.63-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.63-preview-debug.apk",
     "apkSizeBytes":  18314485,
-    "sha256":  "917fe73bbbbfec7433659edfe967a26d14bb9776e251e9985cd1a946eddbae9d",
+    "sha256":  "7660aa8974a0893dc2eb80e009be4d193d13251c87f8019901e7aff1acfd6a7f",
     "minSdk":  26,
-    "notes":  "Low-credit alerts: Settings → Notifications adds a Low balance alert toggle with 5/10/20 USD thresholds; usage is refreshed on launch when enabled, and a once-per-day usage-alerts notification deep-links to Usage when the remaining balance drops below the threshold (quiet hours respected). Plus app-lock grace, Quick Settings tiles, foreground notification dedupe, AMOLED, background queue delivery, shortcuts, mute, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage CSV/file sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.62-preview"
+    "notes":  "Voice recognition language: Settings → Voice now opens a language picker (system default plus common BCP-47 tags); the chosen language is passed to the continuous recognizer and persisted. Plus low-credit alerts, app-lock grace, Quick Settings tiles, foreground notification dedupe, AMOLED, background queue delivery, shortcuts, mute, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.63-preview"
 }
