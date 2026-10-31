@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  50,
-    "versionName":  "0.2.48-preview",
-    "tag":  "v0.2.48-preview",
-    "publishedAt":  "2026-10-31T03:42:58Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.48-preview/dsh-mobile-0.2.48-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.48-preview-debug.apk",
+    "versionCode":  51,
+    "versionName":  "0.2.49-preview",
+    "tag":  "v0.2.49-preview",
+    "publishedAt":  "2026-10-31T03:47:22Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.49-preview/dsh-mobile-0.2.49-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.49-preview-debug.apk",
     "apkSizeBytes":  18281473,
-    "sha256":  "38a8517e232ece2e7a0aaf4b78e4c98b9bbf740e559c64a0ac11e5a606afd751",
+    "sha256":  "4873afbc3fa0f448847e62f5556177c9053059814c782a9ace529222ef10e81d",
     "minSdk":  26,
-    "notes":  "Local session aliases: long-press a session → Rename locally to give it a per-device display name (or Reset); the alias is used in the list, chat header, and session search while the host title stays unchanged. Plus markdown tables, transcript pagination, global cached search, prefer-offline voice, queue edit/count, offline transcript cache, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.48-preview"
+    "notes":  "Notification quiet hours: Settings → Notifications now has Quiet hours with from/until time pickers (default 22:00–08:00, overnight supported); turn-finished and input-needed notifications are suppressed while active, while the diagnostic test remains available. Plus local session aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.49-preview"
 }
