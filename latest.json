@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  125,
-    "versionName":  "0.2.123-preview",
-    "tag":  "v0.2.123-preview",
-    "publishedAt":  "2026-10-31T17:06:38Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.123-preview/dsh-mobile-0.2.123-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.123-preview-debug.apk",
+    "versionCode":  126,
+    "versionName":  "0.2.124-preview",
+    "tag":  "v0.2.124-preview",
+    "publishedAt":  "2026-10-31T17:32:45Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.124-preview/dsh-mobile-0.2.124-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.124-preview-debug.apk",
     "apkSizeBytes":  19102125,
-    "sha256":  "e0ad67293b39891d3ca1e4bcd3817041e27b8b8582c539b3e0fa85aafb235fe7",
+    "sha256":  "5bb9614fb1c22eea8cc7d2e91ec0555c1aba42e72bc7aed559c6e0eee7b9ee85",
     "minSdk":  26,
-    "notes":  "Skills browser: chat top bar now opens a Skills sheet powered by host 0.3.2's GET /sessions/{id}/skills. It lists the session's real user-invocable skills with descriptions (loading/retry/unsupported/empty/session-unavailable states), and tapping one prefills the composer with 'Use the <name> skill: ' without sending; blank-line append, cursor at end, 5-minute per-session cache and copy fallback. Live host currently exposes 14 skills. Also includes preset/lineage, local+remote Markdown images, tool output viewer and PDF export from recent releases.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.123-preview"
+    "notes":  "Quiet hours and per-session mutes now reach the host: host 0.3.3 adds PUT /push/suppress and an additive suppression summary on GET /push. The app debounces and syncs quiet-hours enabled/start/end, device IANA timezone and muted session ids; the host suppresses all ntfy event pushes during quiet hours (DST-safe, midnight-crossing) and session-scoped approval/question/turn pushes for muted sessions. Settings explains it. Also includes skills browser, session preset/lineage, local+remote Markdown images, tool output viewer and PDF export from recent releases.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.124-preview"
 }
