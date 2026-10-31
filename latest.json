@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  47,
-    "versionName":  "0.2.45-preview",
-    "tag":  "v0.2.45-preview",
-    "publishedAt":  "2026-10-31T03:20:14Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.45-preview/dsh-mobile-0.2.45-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.45-preview-debug.apk",
+    "versionCode":  48,
+    "versionName":  "0.2.46-preview",
+    "tag":  "v0.2.46-preview",
+    "publishedAt":  "2026-10-31T03:26:26Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.46-preview/dsh-mobile-0.2.46-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.46-preview-debug.apk",
     "apkSizeBytes":  18265089,
-    "sha256":  "14770f801d1cdb901dc5f1279cbcc850aad9ccc4d47592a3308d619e11977565",
+    "sha256":  "28b2ed1522a04b9516200e60328d7d88ea8752ca8108c7a170f3e52b33ee2274",
     "minSdk":  26,
-    "notes":  "Voice: new Settings → Voice → Prefer offline recognition toggle requests an on-device speech model, avoiding network/VPN audio stalls when a language pack is installed; clear error if offline speech is unavailable. Plus global cached-message search, cancelable queue with edit/count, offline transcript cache, connection diagnostics/auto-heal, usage CSV share, transcript .md share, and background-sync interval.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.45-preview"
+    "notes":  "Transcript pagination: long sessions now show Load earlier messages and fetch older pages with the host before-cursor, prepending only unseen messages. Plus global cached-message search, prefer-offline voice recognition, queue edit/count, offline transcript cache, connection diagnostics/auto-heal, usage CSV and transcript file sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.46-preview"
 }
