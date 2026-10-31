@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  39,
-    "versionName":  "0.2.37-preview",
-    "tag":  "v0.2.37-preview",
-    "publishedAt":  "2026-10-31T01:17:51Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.37-preview/dsh-mobile-0.2.37-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.37-preview-debug.apk",
-    "apkSizeBytes":  18199485,
-    "sha256":  "a27d90e79722af0b3fa2603b982e9a4f28eeacd1bbf0a01f8a03fccb4f1e09c4",
+    "versionCode":  40,
+    "versionName":  "0.2.38-preview",
+    "tag":  "v0.2.38-preview",
+    "publishedAt":  "2026-10-31T01:49:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.38-preview/dsh-mobile-0.2.38-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.38-preview-debug.apk",
+    "apkSizeBytes":  18215905,
+    "sha256":  "2b9629bcbbf17c2f7bce44f83aa1f8784d8e232ce46ce6e45291c6ce0bba8eb3",
     "minSdk":  26,
-    "notes":  "Connection diagnostics: paired host details, SSE/sync/usage state, background-sync state, and a live /health probe with latency plus Copy diagnostics. Also fixes Settings sub-screens (Usage/Hidden sessions/Connection) not opening because Settings stayed on top. Plus image share, send-while-working queue, usage copy/low-credit, notifications/background sync, status filters, Markdown links, update banner, session actions, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.37-preview"
+    "notes":  "Parallel round: share the full usage table as CSV (15-column, formula-safe), share a session transcript as a real .md file via FileProvider, and configure background-sync polling at 20s / 1m / 5m. Includes a new docs/mobile-feature-status.md tracker and independent QA report. Plus connection diagnostics, image share, send-while-working queue, usage copy/low-credit, notifications/background sync, status filters, Markdown links, update banner, session actions, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.38-preview"
 }
