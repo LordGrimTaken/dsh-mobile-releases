@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  22,
-    "versionName":  "0.2.20-preview",
-    "tag":  "v0.2.20-preview",
-    "publishedAt":  "2026-10-30T23:57:19Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.20-preview/dsh-mobile-0.2.20-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.20-preview-debug.apk",
-    "apkSizeBytes":  18099925,
-    "sha256":  "93eb23c98ab95c7d6cad5c723813a1a37fb8a834292595add9c88fe507fe7f30",
+    "versionCode":  23,
+    "versionName":  "0.2.21-preview",
+    "tag":  "v0.2.21-preview",
+    "publishedAt":  "2026-10-31T00:06:14Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.21-preview/dsh-mobile-0.2.21-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.21-preview-debug.apk",
+    "apkSizeBytes":  18116309,
+    "sha256":  "ffc7c72de6a0fd9a9987b1f3203abebff59bb2166af5d0d23119564bd9c433c4",
     "minSdk":  26,
-    "notes":  "Prompt templates in the chat header (Continue, Plan first, Review diff, Fix build, Write tests, Commit/push, Explain, Summarize) that insert an editable prompt. Plus pairing URL test, notifications, light/dark theme, voice dictation, transcript export, inbox, retry, crash fixes/diagnostics, and live DeepSeek remaining credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.20-preview"
+    "notes":  "Optional app lock using the system device credential (PIN/pattern/biometric prompt) with lock-on-background; prompt templates; pairing URL test; notifications; light/dark theme; voice dictation; transcript export; inbox; retry; API 26-30 crash fix and diagnostics; live DeepSeek remaining credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.21-preview"
 }
