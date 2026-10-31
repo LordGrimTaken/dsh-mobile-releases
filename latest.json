@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  121,
-    "versionName":  "0.2.119-preview",
-    "tag":  "v0.2.119-preview",
-    "publishedAt":  "2026-10-31T15:46:24Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.119-preview/dsh-mobile-0.2.119-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.119-preview-debug.apk",
-    "apkSizeBytes":  19052969,
-    "sha256":  "0c3f2012a3872d76f159f2adb91fba3c9c284fb83ad5fc638f95d3a511cb5335",
+    "versionCode":  122,
+    "versionName":  "0.2.120-preview",
+    "tag":  "v0.2.120-preview",
+    "publishedAt":  "2026-10-31T16:00:53Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.120-preview/dsh-mobile-0.2.120-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.120-preview-debug.apk",
+    "apkSizeBytes":  19069357,
+    "sha256":  "c365b78caeafcbe99059a3c9695531cc1e0f825d46b54c4ba863e454aa41c1aa",
     "minSdk":  26,
-    "notes":  "Export PDF: session info now exports a paginated A4 PDF (title, exported time, role/time labels, page footers) through the existing FileProvider share sheet, built off the main thread with byte-safe truncation and visible caps; cancellation cleans up partial files. Search now surfaces host scan coverage ('Searched X of Y sessions - results may be incomplete') from host 0.2.7 instead of implying completeness. Includes save/copy pictures from 0.2.118.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.119-preview"
+    "notes":  "Tool output viewer: host 0.2.8 now includes a tool's text result (capped at 8,000 chars + truncation marker) in both session detail and live SSE. Tool cards in chat gain 'View output' when present, opening a monospace selectable sheet with Copy/Share/Close and a truncation warning; message copy/share stays untouched. Fake-host tool-output fixtures/tests (attachments 12; full fake suite 175).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.120-preview"
 }
