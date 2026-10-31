@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  80,
-    "versionName":  "0.2.78-preview",
-    "tag":  "v0.2.78-preview",
-    "publishedAt":  "2026-10-31T06:08:58Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.78-preview/dsh-mobile-0.2.78-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.78-preview-debug.apk",
+    "versionCode":  81,
+    "versionName":  "0.2.79-preview",
+    "tag":  "v0.2.79-preview",
+    "publishedAt":  "2026-10-31T06:24:45Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.79-preview/dsh-mobile-0.2.79-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.79-preview-debug.apk",
     "apkSizeBytes":  18347325,
-    "sha256":  "50cf2995fe1ceb4bf0d763a97a85e670448fcbb6888599cee420b2a6fb5c2a23",
+    "sha256":  "3227937ee12f2ad951fdc75d02b602c2208feb60343bd77f058dc4eb839f39a3",
     "minSdk":  26,
-    "notes":  "Attachment upload progress: streamed uploads now report byte progress through the client/repository into the composer chip, which shows uploading N% for large files (monotonic, ends at 100%). Plus the large-upload OOM/chunk-corruption fix in 0.2.77, background-sync health, today's token estimate, queue reordering, wrap code blocks, live usage refresh, chat text size, widget Inbox action, and the earlier network/queue/usage work.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.78-preview"
+    "notes":  "Cancel in-flight uploads: removing an attachment chip while it is uploading now cancels that upload (OkHttp enqueue + Call.cancel through the cancellable execute path), so a slow large upload stops instead of finishing invisibly. Plus upload progress percentages, the streaming OOM/chunk fix in 0.2.77, background-sync health, today tokens, queue reordering, wrap code, live usage, chat text size, widget Inbox action, and earlier mobile work.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.79-preview"
 }
