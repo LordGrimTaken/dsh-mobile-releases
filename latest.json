@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  60,
-    "versionName":  "0.2.58-preview",
-    "tag":  "v0.2.58-preview",
-    "publishedAt":  "2026-10-31T04:33:51Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.58-preview/dsh-mobile-0.2.58-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.58-preview-debug.apk",
+    "versionCode":  61,
+    "versionName":  "0.2.59-preview",
+    "tag":  "v0.2.59-preview",
+    "publishedAt":  "2026-10-31T04:39:11Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.59-preview/dsh-mobile-0.2.59-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.59-preview-debug.apk",
     "apkSizeBytes":  18297889,
-    "sha256":  "a88723b7e4a2d7a0dc7308e5a07736d76093130cd1f4eb32b129775c93415ce5",
+    "sha256":  "cd1b48864cab2a66177a9a5403e96791710fc0bc0d421beb52368afe1cb2211d",
     "minSdk":  26,
-    "notes":  "AMOLED black theme: Appearance now has an AMOLED toggle while dark mode is active; backgrounds and lowest surfaces go pure/near black for OLED screens while mint accents and layering stay. Plus background queue delivery, dynamic pinned shortcuts, per-session notification mute, timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.58-preview"
+    "notes":  "Foreground notification dedupe: no turn/input alerts are posted while the app is visible, and the background sync service suppresses its duplicate through a shared foreground flag; alerts resume when the app is backgrounded. Plus AMOLED theme, background queue delivery, dynamic shortcuts, per-session mute, timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.59-preview"
 }
