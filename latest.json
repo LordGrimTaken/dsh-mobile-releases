@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  95,
-    "versionName":  "0.2.93-preview",
-    "tag":  "v0.2.93-preview",
-    "publishedAt":  "2026-10-31T08:53:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.93-preview/dsh-mobile-0.2.93-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.93-preview-debug.apk",
+    "versionCode":  96,
+    "versionName":  "0.2.94-preview",
+    "tag":  "v0.2.94-preview",
+    "publishedAt":  "2026-10-31T09:05:56Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.94-preview/dsh-mobile-0.2.94-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.94-preview-debug.apk",
     "apkSizeBytes":  18445629,
-    "sha256":  "0042b6044c075201dd97fb022644eefc3486502a036463d2f1580646a8759573",
+    "sha256":  "0b0dd06a58470ceabdeecb728a423d9f3b83d09809c60a3ba08d5fda1953a46e",
     "minSdk":  26,
-    "notes":  "Answer approvals from the phone: the host bridges approval/request and races a deferred phone decision against the desktop (first answer wins), exposing readOnly:false so Allow once/Deny work in the Inbox, inline card, notification actions and deep links; lost races clear the stale card with 'Already answered on the desktop'. Disable with approvals.mobileAnswer:false to keep desktop-only. Questions remain read-only. Fake-host answer mode (7 checks) is now in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.93-preview"
+    "notes":  "Answer questions from the phone: the host question bridge accepts option answers per row, emits question.resolved, and returns the full answers batch to the agent when every question in the call is answered. Desktop remains a competing answerer and the first whole answer wins; questions.mobileAnswer:false restores read-only. Lost-race errors hide only the raced question and show 'Already answered on the desktop'. Fake-host question-answer mode (8 checks) is now in CI; free-text questions still require the desktop.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.94-preview"
 }
