@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  58,
-    "versionName":  "0.2.56-preview",
-    "tag":  "v0.2.56-preview",
-    "publishedAt":  "2026-10-31T04:22:51Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.56-preview/dsh-mobile-0.2.56-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.56-preview-debug.apk",
+    "versionCode":  59,
+    "versionName":  "0.2.57-preview",
+    "tag":  "v0.2.57-preview",
+    "publishedAt":  "2026-10-31T04:26:29Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.57-preview/dsh-mobile-0.2.57-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.57-preview-debug.apk",
     "apkSizeBytes":  18297889,
-    "sha256":  "06eb1f3e7cc3b5fef42ddd6feff6e1a356051ad05c157a6a6ea8ceb023764932",
+    "sha256":  "59e771434897bb68fcbd18eccf120cd571614af038b717b2d20044964aa385f4",
     "minSdk":  26,
-    "notes":  "Dynamic pinned-session shortcuts: pinned sessions appear as up to four long-press launcher shortcuts using their local display names and open the session via the existing deep link. Plus per-session notification mute, timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.56-preview"
+    "notes":  "Background queue delivery: locally queued prompts are now flushed when any session goes idle, even if its chat is closed, with an in-flight guard preventing duplicates. Plus dynamic pinned shortcuts, per-session notification mute, message timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.57-preview"
 }
