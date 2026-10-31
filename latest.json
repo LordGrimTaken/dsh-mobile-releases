@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  56,
-    "versionName":  "0.2.54-preview",
-    "tag":  "v0.2.54-preview",
-    "publishedAt":  "2026-10-31T04:15:22Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.54-preview/dsh-mobile-0.2.54-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.54-preview-debug.apk",
-    "apkSizeBytes":  18297889,
-    "sha256":  "e0a35f6666b76ffb94e21b8724d8dd86b01373522672f1d6fbaa44ecbd4ace53",
+    "versionCode":  57,
+    "versionName":  "0.2.55-preview",
+    "tag":  "v0.2.55-preview",
+    "publishedAt":  "2026-10-31T04:18:49Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.55-preview/dsh-mobile-0.2.55-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.55-preview-debug.apk",
+    "apkSizeBytes":  18297885,
+    "sha256":  "4b45b5f1fcd4212cca824e859a27306d91a64432b380fd155ae9ec0d10cc1630",
     "minSdk":  26,
-    "notes":  "Message timestamps: settled user bubbles and assistant blocks now show the host createdAt clock time; streaming rows keep just the cursor. Plus widget queue badge, session sorting, task lists, full-resolution camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.54-preview"
+    "notes":  "Per-session notification mute: long-press a session to Mute/Unmute notifications; muted sessions skip turn-finished and input-needed alerts (including background-sync posts) while other sessions keep notifying. Plus message timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.55-preview"
 }
