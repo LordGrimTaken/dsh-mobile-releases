@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  91,
-    "versionName":  "0.2.89-preview",
-    "tag":  "v0.2.89-preview",
-    "publishedAt":  "2026-10-31T08:18:23Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.89-preview/dsh-mobile-0.2.89-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.89-preview-debug.apk",
-    "apkSizeBytes":  18412861,
-    "sha256":  "1fb66abd8749f5cafbbb6f049b5259162c511134145ffc9533bf0ebbf759ba97",
+    "versionCode":  92,
+    "versionName":  "0.2.90-preview",
+    "tag":  "v0.2.90-preview",
+    "publishedAt":  "2026-10-31T08:28:25Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.90-preview/dsh-mobile-0.2.90-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.90-preview-debug.apk",
+    "apkSizeBytes":  18429245,
+    "sha256":  "70e0ce56f072a29faacdd226647e4ad963f632d49a39b375bcd233f53af45f33",
     "minSdk":  26,
-    "notes":  "Read-only questions on the phone: host mirrors the user-questions waterfall without answering, exposes {questions,supported:true,readOnly:true}, and the app shows read-only Inbox/inline question cards with options and Answer on desktop; read-only hosts also guard approval deep links/actions. Includes read-only approvals, session goal badges, goal alerts toggle, and fake-host question tests (7).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.89-preview"
+    "notes":  "Goals dashboard: a new Goals screen (from the session list) lists every session with a goal, ordered paused/blocked → active → complete, with phase chips and round counters; tapping opens the session and deep links close the dashboard. Also fake-host multi-goal fixtures (26 checks) and today's token estimate in copied usage summaries.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.90-preview"
 }
