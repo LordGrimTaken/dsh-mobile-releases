@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  87,
-    "versionName":  "0.2.85-preview",
-    "tag":  "v0.2.85-preview",
-    "publishedAt":  "2026-10-31T07:28:38Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.85-preview/dsh-mobile-0.2.85-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.85-preview-debug.apk",
-    "apkSizeBytes":  18380093,
-    "sha256":  "0b9cda5cde3992c3a2a489d58f17cd750d226599ee895bb8e4e7195f5201afa9",
+    "versionCode":  88,
+    "versionName":  "0.2.86-preview",
+    "tag":  "v0.2.86-preview",
+    "publishedAt":  "2026-10-31T07:37:26Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.86-preview/dsh-mobile-0.2.86-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.86-preview-debug.apk",
+    "apkSizeBytes":  18396477,
+    "sha256":  "db1d15fbd43c9efde7f0d9e32875504156ec2c42fc62f161f8b1219eee86cf03",
     "minSdk":  26,
-    "notes":  "Team batch: app-wide Interface text scale; widget shows goal phase for the most recent session; goal.changed SSE now updates the GOAL banner instantly; share connection diagnostics; fake-host goal endpoints + tests; independent QA report. Also includes goal create/pause/resume controls and image thumbnails.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.85-preview"
+    "notes":  "Goal management complete: edit objective/max rounds and clear a goal from the GOAL banner; new goal-alerts notifications when a goal pauses/blocks/completes (deduped, background-only). Host adds /goal/edit and /goal/clear; fake host + CI now cover goal tests (18). Also fake host goal.changed, app-wide text scale, widget goal status, and shared diagnostics.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.86-preview"
 }
