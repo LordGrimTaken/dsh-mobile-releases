@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  108,
-    "versionName":  "0.2.106-preview",
-    "tag":  "v0.2.106-preview",
-    "publishedAt":  "2026-10-31T10:52:16Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.106-preview/dsh-mobile-0.2.106-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.106-preview-debug.apk",
-    "apkSizeBytes":  18773341,
-    "sha256":  "8c1cc322c827c2ed5204c1d85ac7964a48f83ae95081d9225b372f54b75584ec",
+    "versionCode":  109,
+    "versionName":  "0.2.107-preview",
+    "tag":  "v0.2.107-preview",
+    "publishedAt":  "2026-10-31T11:03:15Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.107-preview/dsh-mobile-0.2.107-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.107-preview-debug.apk",
+    "apkSizeBytes":  18806109,
+    "sha256":  "f9e91363e9fb3c9561d84068f6a110d61649b6e452b1705f7d1820e590e06593",
     "minSdk":  26,
-    "notes":  "Per-session approval policy: GET/PUT /sessions/{id}/approval-policy exposes DSH ask/never; Ask allows approval requests, Never auto-rejects approval-requiring actions for unattended runs. The session long-press sheet gains an Approval policy dialog with a second confirmation for Never; cold sessions are read from the durable policy log and are never activated, writes need a live session. Fake-host policy fixtures/tests (8) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.106-preview"
+    "notes":  "Paired-device management: Settings -> Security lists paired devices (platform, paired/last-seen, This device) and revokes another device after confirmation. Host GET /devices and DELETE /devices/{id}: metadata only (no token material), self-revoke refused, revocation persisted/awaited with rollback on write failure, token invalid immediately and its open SSE stream closed. Fake-host device registry with a seeded legacy device (6 checks; full fake suite 125 checks).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.107-preview"
 }
