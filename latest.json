@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  106,
-    "versionName":  "0.2.104-preview",
-    "tag":  "v0.2.104-preview",
-    "publishedAt":  "2026-10-31T10:31:37Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.104-preview/dsh-mobile-0.2.104-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.104-preview-debug.apk",
-    "apkSizeBytes":  18724189,
-    "sha256":  "21d37068cdce16537d3fe2b8db494c93af087d9c4931536aad3b10fa7f44a655",
+    "versionCode":  107,
+    "versionName":  "0.2.105-preview",
+    "tag":  "v0.2.105-preview",
+    "publishedAt":  "2026-10-31T10:42:03Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.105-preview/dsh-mobile-0.2.105-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.105-preview-debug.apk",
+    "apkSizeBytes":  18756957,
+    "sha256":  "706e180c6404ba1947f297a50d1e5dd916d7196c0f64abc26bc545fadf9c633c",
     "minSdk":  26,
-    "notes":  "Local backup: Settings can export/import a versioned JSON backup of aliases, pins/mutes/hidden, drafts, queued prompts, attachment drafts, snippets and safe preferences via SAF, with schema/5MB validation, secret exclusion, destructive-replace confirmation and no host tokens/app lock/caches. Also hardens host-wide search so its 3s budget covers the whole request including session list and snapshot reads (live q=release now 3.24s vs 4.9s) and refreshes the 200-idea feature catalog through 0.2.103.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.104-preview"
+    "notes":  "Optional ntfy push: Settings configures a host-published ntfy topic (https, optional token, generate/clear topic) and the host sends short approval/question/goal/turn pushes with inbox/session deep links. Host-side hardening: SSRF-safe server validation, token redaction, 30/min cap, 2-failure/60s backoff, bounded queue/dedupe; app copy documents topic secrecy, plaintext token on host, and that app-local quiet-hours/foreground/mute are not honored. Also documents the host search budget as best-effort with partial hits. Fake-host push config tests (7) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.105-preview"
 }
