@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  124,
-    "versionName":  "0.2.122-preview",
-    "tag":  "v0.2.122-preview",
-    "publishedAt":  "2026-10-31T16:52:04Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.122-preview/dsh-mobile-0.2.122-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.122-preview-debug.apk",
-    "apkSizeBytes":  19069357,
-    "sha256":  "e395ad3e62922f36e6cbb2def602dfca3df80e34d204a51319af12268a89a898",
+    "versionCode":  125,
+    "versionName":  "0.2.123-preview",
+    "tag":  "v0.2.123-preview",
+    "publishedAt":  "2026-10-31T17:06:38Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.123-preview/dsh-mobile-0.2.123-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.123-preview-debug.apk",
+    "apkSizeBytes":  19102125,
+    "sha256":  "e0ad67293b39891d3ca1e4bcd3817041e27b8b8582c539b3e0fa85aafb235fe7",
     "minSdk":  26,
-    "notes":  "Session context from host 0.3.1: chats now show 'Preset: <name>' plus a 'Forked from <parent>' card in Session Info. Open parent is a proper 48dp accessible button when the parent is loaded; otherwise the card shows a short id and 'Parent session not available'. Full refreshes clear stale lineage while SSE partial updates preserve it; old hosts are unchanged. Also includes workspace/remote Markdown pictures, tool output viewer, PDF export and search coverage from recent releases.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.122-preview"
+    "notes":  "Skills browser: chat top bar now opens a Skills sheet powered by host 0.3.2's GET /sessions/{id}/skills. It lists the session's real user-invocable skills with descriptions (loading/retry/unsupported/empty/session-unavailable states), and tapping one prefills the composer with 'Use the <name> skill: ' without sending; blank-line append, cursor at end, 5-minute per-session cache and copy fallback. Live host currently exposes 14 skills. Also includes preset/lineage, local+remote Markdown images, tool output viewer and PDF export from recent releases.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.123-preview"
 }
