@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  99,
-    "versionName":  "0.2.97-preview",
-    "tag":  "v0.2.97-preview",
-    "publishedAt":  "2026-10-31T09:29:27Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.97-preview/dsh-mobile-0.2.97-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.97-preview-debug.apk",
-    "apkSizeBytes":  18478429,
-    "sha256":  "5945672753d14a2c7da3e38837787674d5bc6d183067b25a75c11639ea523405",
+    "versionCode":  100,
+    "versionName":  "0.2.98-preview",
+    "tag":  "v0.2.98-preview",
+    "publishedAt":  "2026-10-31T09:38:22Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.98-preview/dsh-mobile-0.2.98-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.98-preview-debug.apk",
+    "apkSizeBytes":  18543965,
+    "sha256":  "851c3c82ad925ee6b35b84538690d341336b43dafc893eb5ee4d9f5bbe75d9a7",
     "minSdk":  26,
-    "notes":  "Historical image thumbnails: attachment chips now load a small async thumbnail (bounds-first downsample to <=512px/256KB, LRU bounded) from the shared read-back cache; failures keep the icon chip. The attachment cache is pruned at app start to 100MB/7 days while protecting in-use files. Fake-host 64x64 PNG fixture with IHDR checks (8 attachment checks).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.97-preview"
+    "notes":  "Schedules / reminders: new host API (GET /schedules, POST /sessions/{id}/schedules, DELETE /schedules/{id}) plus a phone Schedules screen. List host reminders with next/last run, create a one-off 'after N minutes' or daily HH:MM (device timezone is sent), and delete with confirmation. Fake-host schedule fixtures/validation and an 8-check test are in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.98-preview"
 }
