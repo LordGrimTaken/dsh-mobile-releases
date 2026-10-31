@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  44,
-    "versionName":  "0.2.42-preview",
-    "tag":  "v0.2.42-preview",
-    "publishedAt":  "2026-10-31T03:03:40Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.42-preview/dsh-mobile-0.2.42-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.42-preview-debug.apk",
+    "versionCode":  45,
+    "versionName":  "0.2.43-preview",
+    "tag":  "v0.2.43-preview",
+    "publishedAt":  "2026-10-31T03:08:17Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.43-preview/dsh-mobile-0.2.43-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.43-preview-debug.apk",
     "apkSizeBytes":  18248705,
-    "sha256":  "f4df277d25801e8780cfe6e2fea2c926b1f4251d698250855705398661504551",
+    "sha256":  "27bac606860a9e83e202112ea65bae7c4f4db8bdc1413028a0b6482806c9277c",
     "minSdk":  26,
-    "notes":  "Fixed the send queue: messages typed while the agent is working are now held locally in a QUEUED strip with per-message X delete and clear, then sent one at a time after the current turn. This removes the undeletable IN QUEUE previews and the stale/backlogged queue messages. Plus offline transcript cache, connection diagnostics/auto-heal, continuous voice dictation, usage CSV share, transcript .md share, and background-sync interval.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.42-preview"
+    "notes":  "Queue follow-up: queued messages can now be edited by tapping the chip (text returns to the composer), the session list shows an N queued badge, and per-item cancel/clear remain. Plus the 0.2.42 fix that keeps queued messages local until the current turn ends. Also offline transcript cache, connection diagnostics/auto-heal, continuous voice dictation, usage CSV share, transcript .md share, and background-sync interval.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.43-preview"
 }
