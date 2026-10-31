@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  53,
-    "versionName":  "0.2.51-preview",
-    "tag":  "v0.2.51-preview",
-    "publishedAt":  "2026-10-31T03:56:31Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.51-preview/dsh-mobile-0.2.51-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.51-preview-debug.apk",
-    "apkSizeBytes":  18281505,
-    "sha256":  "85b0e28cacba20f312c67263cfedcf03675cac752a27fd95bc48ca6e55640f52",
+    "versionCode":  54,
+    "versionName":  "0.2.52-preview",
+    "tag":  "v0.2.52-preview",
+    "publishedAt":  "2026-10-31T04:03:56Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.52-preview/dsh-mobile-0.2.52-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.52-preview-debug.apk",
+    "apkSizeBytes":  18297889,
+    "sha256":  "001753afc8b24c4d381c5f5ee4b0303016e4d9f9dde0800edfdef54193ad63d3",
     "minSdk":  26,
-    "notes":  "Markdown task lists: - [ ] and - [x] items render with checkbox glyphs, completed styling and strikethrough. Plus full-resolution camera capture, quiet hours, local session aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.51-preview"
+    "notes":  "Session sorting: choose activity, title, or status order above the session ledger; pinned sessions stay on top and the choice persists. Status mode groups working → unread → idle. Plus markdown task lists, full-resolution camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.52-preview"
 }
