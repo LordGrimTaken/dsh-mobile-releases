@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  98,
-    "versionName":  "0.2.96-preview",
-    "tag":  "v0.2.96-preview",
-    "publishedAt":  "2026-10-31T09:23:31Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.96-preview/dsh-mobile-0.2.96-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.96-preview-debug.apk",
-    "apkSizeBytes":  18462045,
-    "sha256":  "919b2796641037ca92f298c66135c01c062fe8e38046de323e8461226ee43ea2",
+    "versionCode":  99,
+    "versionName":  "0.2.97-preview",
+    "tag":  "v0.2.97-preview",
+    "publishedAt":  "2026-10-31T09:29:27Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.97-preview/dsh-mobile-0.2.97-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.97-preview-debug.apk",
+    "apkSizeBytes":  18478429,
+    "sha256":  "5945672753d14a2c7da3e38837787674d5bc6d183067b25a75c11639ea523405",
     "minSdk":  26,
-    "notes":  "Attachment read-back: session messages now carry attachment metadata and the host serves the bytes via authenticated GET /sessions/{id}/attachments/{attachmentId} (session-scoped refs; images inline, files as downloads). The phone renders historical file/image chips, downloads with a 25 MB cap into the app cache and opens them through FileProvider with a share fallback. Includes a raw HTTP response carrier for byte routes and fake-host attachment fixtures/tests (7 checks).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.96-preview"
+    "notes":  "Historical image thumbnails: attachment chips now load a small async thumbnail (bounds-first downsample to <=512px/256KB, LRU bounded) from the shared read-back cache; failures keep the icon chip. The attachment cache is pruned at app start to 100MB/7 days while protecting in-use files. Fake-host 64x64 PNG fixture with IHDR checks (8 attachment checks).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.97-preview"
 }
