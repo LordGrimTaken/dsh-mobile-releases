@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  45,
-    "versionName":  "0.2.43-preview",
-    "tag":  "v0.2.43-preview",
-    "publishedAt":  "2026-10-31T03:08:17Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.43-preview/dsh-mobile-0.2.43-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.43-preview-debug.apk",
-    "apkSizeBytes":  18248705,
-    "sha256":  "27bac606860a9e83e202112ea65bae7c4f4db8bdc1413028a0b6482806c9277c",
+    "versionCode":  46,
+    "versionName":  "0.2.44-preview",
+    "tag":  "v0.2.44-preview",
+    "publishedAt":  "2026-10-31T03:13:00Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.44-preview/dsh-mobile-0.2.44-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.44-preview-debug.apk",
+    "apkSizeBytes":  18265085,
+    "sha256":  "3536b056d89e3c596441e1706c8d4dfed2ff3f1a884fb1b5bb05124d1fe01f68",
     "minSdk":  26,
-    "notes":  "Queue follow-up: queued messages can now be edited by tapping the chip (text returns to the composer), the session list shows an N queued badge, and per-item cancel/clear remain. Plus the 0.2.42 fix that keeps queued messages local until the current turn ends. Also offline transcript cache, connection diagnostics/auto-heal, continuous voice dictation, usage CSV share, transcript .md share, and background-sync interval.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.43-preview"
+    "notes":  "Global cached-message search: typing in the session search now also searches transcripts cached on the phone and shows a CACHED MESSAGES section with title, matching snippet, and jump-to-session. Runs locally with a debounce; no host call. Plus queue editing/count, cancelable send queue, offline transcript cache, connection diagnostics/auto-heal, continuous voice dictation, usage CSV and transcript file sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.44-preview"
 }
