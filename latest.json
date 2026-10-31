@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  31,
-    "versionName":  "0.2.29-preview",
-    "tag":  "v0.2.29-preview",
-    "publishedAt":  "2026-10-31T00:35:33Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.29-preview/dsh-mobile-0.2.29-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.29-preview-debug.apk",
-    "apkSizeBytes":  18166485,
-    "sha256":  "5cd96ad7088505947de8be1f845d467d1b493d21fbc84f4cb88cef1279dcb94d",
+    "versionCode":  32,
+    "versionName":  "0.2.30-preview",
+    "tag":  "v0.2.30-preview",
+    "publishedAt":  "2026-10-31T00:39:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.30-preview/dsh-mobile-0.2.30-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.30-preview-debug.apk",
+    "apkSizeBytes":  18166617,
+    "sha256":  "c0ba0830884c616bb42cf053e247109103e71f0bba59882d9befb77208b6fa1e",
     "minSdk":  26,
-    "notes":  "Markdown URLs are styled and link-annotated, and a session-list banner surfaces available updates (silent launch checks now have a visible entry point). Plus session long-press actions, secure window, inbox shortcut, persistent queue, richer markdown, notification actions, multi-file attach, hidden-session manager, snippets, recent prompts, widget status, app lock, templates, pairing test, theme, voice, export, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.29-preview"
+    "notes":  "Optional background sync: a foreground service keeps watching the paired host for turn completion and pending approvals/questions while DSH Mobile is closed, posting notifications with Allow/Deny/inbox actions. Plus Markdown links, update banner, long-press session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden-session manager, snippets, widget status, app lock, templates, pairing test, theme, voice, export, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.30-preview"
 }
