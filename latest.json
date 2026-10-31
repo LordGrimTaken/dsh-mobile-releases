@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  127,
-    "versionName":  "0.2.125-preview",
-    "tag":  "v0.2.125-preview",
-    "publishedAt":  "2026-10-31T17:42:12Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.125-preview/dsh-mobile-0.2.125-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.125-preview-debug.apk",
+    "versionCode":  128,
+    "versionName":  "0.2.126-preview",
+    "tag":  "v0.2.126-preview",
+    "publishedAt":  "2026-10-31T17:54:48Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.126-preview/dsh-mobile-0.2.126-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.126-preview-debug.apk",
     "apkSizeBytes":  19118509,
-    "sha256":  "f2d0b81b37aaece65ec70bd198c25a4ed7b4c09b388883adce27ae8122de9f3b",
+    "sha256":  "c5985117dd9b60b7201260d66e07a5af6ab5612eaa0545085f0ea713e7d7de8f",
     "minSdk":  26,
-    "notes":  "Delegation activity: host 0.3.4 adds optional aggregate delegation counts (internal direct child sessions, archived children excluded, no child ids/titles). Session list rows show '2 agents · 1 working' badges (99+ cap, TalkBack labels) and Session Info shows '2 subagents · 1 working'; old hosts/normal sessions are unchanged. Live host currently reports delegation for 6 sessions (including 9 child sessions on this one). Also includes push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.125-preview"
+    "notes":  "Jump to search hit: host 0.3.5 adds optional seq to search hits; tapping a host-wide search result now opens the session and jumps to the matching message with a brief highlight. Seq-first resolution (tool-call hits included), bounded automatic older-page loading (max 20 pages), older-header-aware scroll, and a not-found notice for very old hits; message-id-only hits also jump, and target state is cleared after apply. Also includes delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.126-preview"
 }
