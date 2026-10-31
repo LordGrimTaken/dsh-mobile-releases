@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  51,
-    "versionName":  "0.2.49-preview",
-    "tag":  "v0.2.49-preview",
-    "publishedAt":  "2026-10-31T03:47:22Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.49-preview/dsh-mobile-0.2.49-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.49-preview-debug.apk",
-    "apkSizeBytes":  18281473,
-    "sha256":  "4873afbc3fa0f448847e62f5556177c9053059814c782a9ace529222ef10e81d",
+    "versionCode":  52,
+    "versionName":  "0.2.50-preview",
+    "tag":  "v0.2.50-preview",
+    "publishedAt":  "2026-10-31T03:51:21Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.50-preview/dsh-mobile-0.2.50-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.50-preview-debug.apk",
+    "apkSizeBytes":  18281505,
+    "sha256":  "97d30af84746b29c5c028e360fd23decb43381d7327551dcb32c95647f68806d",
     "minSdk":  26,
-    "notes":  "Notification quiet hours: Settings → Notifications now has Quiet hours with from/until time pickers (default 22:00–08:00, overnight supported); turn-finished and input-needed notifications are suppressed while active, while the diagnostic test remains available. Plus local session aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.49-preview"
+    "notes":  "Full-resolution camera capture: the composer camera now launches the system camera with a cache-backed FileProvider URI, reads back the full photo, enforces the 10 MB limit, and uploads it through the attachment tray. Plus quiet hours, local session aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.50-preview"
 }
