@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  48,
-    "versionName":  "0.2.46-preview",
-    "tag":  "v0.2.46-preview",
-    "publishedAt":  "2026-10-31T03:26:26Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.46-preview/dsh-mobile-0.2.46-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.46-preview-debug.apk",
-    "apkSizeBytes":  18265089,
-    "sha256":  "28b2ed1522a04b9516200e60328d7d88ea8752ca8108c7a170f3e52b33ee2274",
+    "versionCode":  49,
+    "versionName":  "0.2.47-preview",
+    "tag":  "v0.2.47-preview",
+    "publishedAt":  "2026-10-31T03:33:59Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.47-preview/dsh-mobile-0.2.47-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.47-preview-debug.apk",
+    "apkSizeBytes":  18265093,
+    "sha256":  "df146b6179c5b0ab0a516d22e050f61176ef27281e69d0ece7a405521f09062c",
     "minSdk":  26,
-    "notes":  "Transcript pagination: long sessions now show Load earlier messages and fetch older pages with the host before-cursor, prepending only unseen messages. Plus global cached-message search, prefer-offline voice recognition, queue edit/count, offline transcript cache, connection diagnostics/auto-heal, usage CSV and transcript file sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.46-preview"
+    "notes":  "Markdown tables: GFM pipe tables now render as scrollable bordered tables with tinted headers and inline bold/code/links, instead of raw pipe text. Plus transcript pagination, global cached-message search, prefer-offline voice, queue edit/count, offline transcript cache, connection diagnostics/auto-heal, usage CSV and transcript file sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.47-preview"
 }
