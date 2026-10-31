@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  66,
-    "versionName":  "0.2.64-preview",
-    "tag":  "v0.2.64-preview",
-    "publishedAt":  "2026-10-31T04:58:08Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.64-preview/dsh-mobile-0.2.64-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.64-preview-debug.apk",
+    "versionCode":  67,
+    "versionName":  "0.2.65-preview",
+    "tag":  "v0.2.65-preview",
+    "publishedAt":  "2026-10-31T05:01:18Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.65-preview/dsh-mobile-0.2.65-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.65-preview-debug.apk",
     "apkSizeBytes":  18314485,
-    "sha256":  "90c474391f5ff49510fd972506652dcac0033b4c5887847a41234d0cf0d67ccc",
+    "sha256":  "27148256fe9bbcc119950c5fe556c434c6ec6e1286aab170a3d7f79e97a74ff2",
     "minSdk":  26,
-    "notes":  "Long-message collapse: settled assistant replies over 1,400 characters now show a clipped 440dp preview with Show more / Show less, keeping long plans and tables from dominating the chat; streaming replies are never collapsed. Plus voice language picker, low-credit alerts, app-lock grace, Quick Settings tiles, foreground notification dedupe, AMOLED, background queue delivery, shortcuts, mute, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.64-preview"
+    "notes":  "Notification grouping and muted tags: 2+ active turn/input alerts are grouped under a DSH Mobile summary that opens the Inbox; muted sessions show a muted tag on the row. Plus long-message collapse, voice language picker, low-credit alerts, app-lock grace, Quick Settings tiles, foreground dedupe, AMOLED, background queue delivery, shortcuts, timestamps, widget badge, sorting, task lists, camera, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.65-preview"
 }
