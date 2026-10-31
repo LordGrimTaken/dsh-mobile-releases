@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  40,
-    "versionName":  "0.2.38-preview",
-    "tag":  "v0.2.38-preview",
-    "publishedAt":  "2026-10-31T01:49:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.38-preview/dsh-mobile-0.2.38-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.38-preview-debug.apk",
-    "apkSizeBytes":  18215905,
-    "sha256":  "2b9629bcbbf17c2f7bce44f83aa1f8784d8e232ce46ce6e45291c6ce0bba8eb3",
+    "versionCode":  41,
+    "versionName":  "0.2.39-preview",
+    "tag":  "v0.2.39-preview",
+    "publishedAt":  "2026-10-31T02:24:54Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.39-preview/dsh-mobile-0.2.39-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.39-preview-debug.apk",
+    "apkSizeBytes":  18880341,
+    "sha256":  "cd60316ceabdf1b9531d145c40e39279550d030cd28e6a162ee4a8ef29868470",
     "minSdk":  26,
-    "notes":  "Parallel round: share the full usage table as CSV (15-column, formula-safe), share a session transcript as a real .md file via FileProvider, and configure background-sync polling at 20s / 1m / 5m. Includes a new docs/mobile-feature-status.md tracker and independent QA report. Plus connection diagnostics, image share, send-while-working queue, usage copy/low-credit, notifications/background sync, status filters, Markdown links, update banner, session actions, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.38-preview"
+    "notes":  "Network resilience: the app now auto-heals on foreground resume and on Wi-Fi/VPN/Tailscale network changes, keeps the SSE replay cursor, uses a 90s stream timeout plus stale-socket watchdog, and shows network/stream/reconnect diagnostics. Voice: continuous dictation with live partials, auto-restart across pauses, tap mic to start/stop, and runtime microphone permission. New Tailscale troubleshooting guide. Plus usage CSV share, transcript file share, background-sync interval, connection diagnostics, image share, send-while-working queue, notifications/background sync, status filters, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.39-preview"
 }
