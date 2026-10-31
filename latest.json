@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  54,
-    "versionName":  "0.2.52-preview",
-    "tag":  "v0.2.52-preview",
-    "publishedAt":  "2026-10-31T04:03:56Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.52-preview/dsh-mobile-0.2.52-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.52-preview-debug.apk",
+    "versionCode":  55,
+    "versionName":  "0.2.53-preview",
+    "tag":  "v0.2.53-preview",
+    "publishedAt":  "2026-10-31T04:09:08Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.53-preview/dsh-mobile-0.2.53-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.53-preview-debug.apk",
     "apkSizeBytes":  18297889,
-    "sha256":  "001753afc8b24c4d381c5f5ee4b0303016e4d9f9dde0800edfdef54193ad63d3",
+    "sha256":  "cf57f99ae75dacceae186fd2b0152f7c0eeef715a7f20d71d63f505116ddaa7d",
     "minSdk":  26,
-    "notes":  "Session sorting: choose activity, title, or status order above the session ledger; pinned sessions stay on top and the choice persists. Status mode groups working → unread → idle. Plus markdown task lists, full-resolution camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.52-preview"
+    "notes":  "Widget queue badge: the home-screen widget status line now shows · N queued when the most recent session has locally queued prompts. Plus session sorting, task lists, full-resolution camera, quiet hours, aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.53-preview"
 }
