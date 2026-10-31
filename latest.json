@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  97,
-    "versionName":  "0.2.95-preview",
-    "tag":  "v0.2.95-preview",
-    "publishedAt":  "2026-10-31T09:13:40Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.95-preview/dsh-mobile-0.2.95-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.95-preview-debug.apk",
-    "apkSizeBytes":  18445629,
-    "sha256":  "9d39717cd7855a7249cff5d8448cc74a6b6112602947fb9f33079229d0b5e6ee",
+    "versionCode":  98,
+    "versionName":  "0.2.96-preview",
+    "tag":  "v0.2.96-preview",
+    "publishedAt":  "2026-10-31T09:23:31Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.96-preview/dsh-mobile-0.2.96-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.96-preview-debug.apk",
+    "apkSizeBytes":  18462045,
+    "sha256":  "919b2796641037ca92f298c66135c01c062fe8e38046de323e8461226ee43ea2",
     "minSdk":  26,
-    "notes":  "Free-text question answers: optionless questions now show a text field + Send on the phone, and option questions gain an 'Other…' custom answer. Answers are trimmed/capped and sent as DSH custom answers; one in-flight answer prevents double sends and multi-question batches keep remaining rows. Fake-host free-text fixture and checks (9 question-answer checks) updated.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.95-preview"
+    "notes":  "Attachment read-back: session messages now carry attachment metadata and the host serves the bytes via authenticated GET /sessions/{id}/attachments/{attachmentId} (session-scoped refs; images inline, files as downloads). The phone renders historical file/image chips, downloads with a 25 MB cap into the app cache and opens them through FileProvider with a share fallback. Includes a raw HTTP response carrier for byte routes and fake-host attachment fixtures/tests (7 checks).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.96-preview"
 }
