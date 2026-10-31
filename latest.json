@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  26,
-    "versionName":  "0.2.24-preview",
-    "tag":  "v0.2.24-preview",
-    "publishedAt":  "2026-10-31T00:17:39Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.24-preview/dsh-mobile-0.2.24-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.24-preview-debug.apk",
-    "apkSizeBytes":  18116441,
-    "sha256":  "7d5ffca335e00e64151e01ac71973921a00e7c7579d19865694b1552ed262a24",
+    "versionCode":  27,
+    "versionName":  "0.2.25-preview",
+    "tag":  "v0.2.25-preview",
+    "publishedAt":  "2026-10-31T00:22:11Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.25-preview/dsh-mobile-0.2.25-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.25-preview-debug.apk",
+    "apkSizeBytes":  18132829,
+    "sha256":  "28d5be0afbe131851c54497fe4d73296ee395f5a5249cac3156b686c7b78b39d",
     "minSdk":  26,
-    "notes":  "Saved prompt snippets: save the current draft as a reusable snippet from the templates sheet, insert or delete saved snippets. Plus recent prompts, live widget status, inbox notification action, app lock, templates, pairing test, notifications, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.24-preview"
+    "notes":  "Hidden-sessions manager in Settings: see the host's hidden session list and restore any session to the main list. Plus saved prompt snippets, recent prompts, live widget status, inbox notification action, app lock, templates, pairing test, notifications, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.25-preview"
 }
