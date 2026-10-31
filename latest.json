@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  88,
-    "versionName":  "0.2.86-preview",
-    "tag":  "v0.2.86-preview",
-    "publishedAt":  "2026-10-31T07:37:26Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.86-preview/dsh-mobile-0.2.86-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.86-preview-debug.apk",
-    "apkSizeBytes":  18396477,
-    "sha256":  "db1d15fbd43c9efde7f0d9e32875504156ec2c42fc62f161f8b1219eee86cf03",
+    "versionCode":  89,
+    "versionName":  "0.2.87-preview",
+    "tag":  "v0.2.87-preview",
+    "publishedAt":  "2026-10-31T07:47:49Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.87-preview/dsh-mobile-0.2.87-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.87-preview-debug.apk",
+    "apkSizeBytes":  18412861,
+    "sha256":  "9c5b240a2f97f627074aae5720134e498f6c6ba90abaa2023987aeecc844dbf7",
     "minSdk":  26,
-    "notes":  "Goal management complete: edit objective/max rounds and clear a goal from the GOAL banner; new goal-alerts notifications when a goal pauses/blocks/completes (deduped, background-only). Host adds /goal/edit and /goal/clear; fake host + CI now cover goal tests (18). Also fake host goal.changed, app-wide text scale, widget goal status, and shared diagnostics.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.86-preview"
+    "notes":  "Session goal badges: GET /sessions rows now carry each live session's goal summary and the app shows a goal active/paused/blocked/complete tag, updated live via goal.changed. Also adds a Goal updates notification toggle, fake-host goal summaries (23 checks), and preserves the badge across session.updated/detail payloads.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.87-preview"
 }
