@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  105,
-    "versionName":  "0.2.103-preview",
-    "tag":  "v0.2.103-preview",
-    "publishedAt":  "2026-10-31T10:19:20Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.103-preview/dsh-mobile-0.2.103-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.103-preview-debug.apk",
-    "apkSizeBytes":  18691421,
-    "sha256":  "26754e990793d31aca8eb10eab263092f6f98b303e9130ba9d229bf97f0ca483",
+    "versionCode":  106,
+    "versionName":  "0.2.104-preview",
+    "tag":  "v0.2.104-preview",
+    "publishedAt":  "2026-10-31T10:31:37Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.104-preview/dsh-mobile-0.2.104-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.104-preview-debug.apk",
+    "apkSizeBytes":  18724189,
+    "sha256":  "21d37068cdce16537d3fe2b8db494c93af087d9c4931536aad3b10fa7f44a655",
     "minSdk":  26,
-    "notes":  "Host-wide message search: new GET /search scans visible sessions (user/assistant text + tool command detail) with sessions/events/hits/3s bounds, and the phone gains a 'Search all sessions' screen with debounce, highlighted snippets, session/role/time, truncated note and retry. Also fixes image-viewer pan bounds for letterboxed non-square images. Fake-host search fixtures/tests (9 checks) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.103-preview"
+    "notes":  "Local backup: Settings can export/import a versioned JSON backup of aliases, pins/mutes/hidden, drafts, queued prompts, attachment drafts, snippets and safe preferences via SAF, with schema/5MB validation, secret exclusion, destructive-replace confirmation and no host tokens/app lock/caches. Also hardens host-wide search so its 3s budget covers the whole request including session list and snapshot reads (live q=release now 3.24s vs 4.9s) and refreshes the 200-idea feature catalog through 0.2.103.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.104-preview"
 }
