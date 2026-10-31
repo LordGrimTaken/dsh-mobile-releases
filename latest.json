@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  100,
-    "versionName":  "0.2.98-preview",
-    "tag":  "v0.2.98-preview",
-    "publishedAt":  "2026-10-31T09:38:22Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.98-preview/dsh-mobile-0.2.98-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.98-preview-debug.apk",
-    "apkSizeBytes":  18543965,
-    "sha256":  "851c3c82ad925ee6b35b84538690d341336b43dafc893eb5ee4d9f5bbe75d9a7",
+    "versionCode":  101,
+    "versionName":  "0.2.99-preview",
+    "tag":  "v0.2.99-preview",
+    "publishedAt":  "2026-10-31T09:45:34Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.99-preview/dsh-mobile-0.2.99-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.99-preview-debug.apk",
+    "apkSizeBytes":  18576733,
+    "sha256":  "543d6112b3a2bee49677a24645b32ceff1f8e1edee84ff879906329649dcd532",
     "minSdk":  26,
-    "notes":  "Schedules / reminders: new host API (GET /schedules, POST /sessions/{id}/schedules, DELETE /schedules/{id}) plus a phone Schedules screen. List host reminders with next/last run, create a one-off 'after N minutes' or daily HH:MM (device timezone is sent), and delete with confirmation. Fake-host schedule fixtures/validation and an 8-check test are in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.98-preview"
+    "notes":  "Schedule editing + 'Schedule this prompt': PATCH /schedules/{id} edits title/instruction and after/daily timing (session-scoped), and the schedules screen gains an Edit dialog that only sends timing when changed, so renaming cannot reschedule. Chat composer can schedule the current draft for the session with a default title and duplicate-submit guard. Fake-host update support with 12 schedule checks.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.99-preview"
 }
