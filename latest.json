@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  82,
-    "versionName":  "0.2.80-preview",
-    "tag":  "v0.2.80-preview",
-    "publishedAt":  "2026-10-31T06:44:20Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.80-preview/dsh-mobile-0.2.80-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.80-preview-debug.apk",
+    "versionCode":  83,
+    "versionName":  "0.2.81-preview",
+    "tag":  "v0.2.81-preview",
+    "publishedAt":  "2026-10-31T06:54:16Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.81-preview/dsh-mobile-0.2.81-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.81-preview-debug.apk",
     "apkSizeBytes":  18363709,
-    "sha256":  "a413bb2a26dd7d052ee4bf3a57abf181a1468fa0f2e8c64cb8aeeb90c85eab37",
+    "sha256":  "7927b7c184988511683292af2f8db2927df17e850f0dcde5e1031503f5813755",
     "minSdk":  26,
-    "notes":  "Goal controls on mobile: the chat shows a GOAL banner (phase, objective, round budget, blocked reason) with one-tap Resume for paused goals. Host bridge GET /sessions/{id}/goal and POST /sessions/{id}/goal/resume use DSH ctx.goals for the live agent, so you can see and re-arm a paused goal from Android without the desktop UI. Also cancelable uploads with progress and the 0.2.77 streaming upload OOM fix.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.80-preview"
+    "notes":  "Goal controls now include Pause: the GOAL banner offers Resume while paused/blocked/disarmed and Pause while active, backed by new POST /sessions/{id}/goal/pause. The banner also re-reads goal state every 20 s so desktop changes and automatic rounds stay in sync. Still includes upload progress/cancel and the streaming upload OOM fix.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.81-preview"
 }
