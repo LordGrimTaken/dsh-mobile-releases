@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  55,
-    "versionName":  "0.2.53-preview",
-    "tag":  "v0.2.53-preview",
-    "publishedAt":  "2026-10-31T04:09:08Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.53-preview/dsh-mobile-0.2.53-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.53-preview-debug.apk",
+    "versionCode":  56,
+    "versionName":  "0.2.54-preview",
+    "tag":  "v0.2.54-preview",
+    "publishedAt":  "2026-10-31T04:15:22Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.54-preview/dsh-mobile-0.2.54-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.54-preview-debug.apk",
     "apkSizeBytes":  18297889,
-    "sha256":  "cf57f99ae75dacceae186fd2b0152f7c0eeef715a7f20d71d63f505116ddaa7d",
+    "sha256":  "e0a35f6666b76ffb94e21b8724d8dd86b01373522672f1d6fbaa44ecbd4ace53",
     "minSdk":  26,
-    "notes":  "Widget queue badge: the home-screen widget status line now shows · N queued when the most recent session has locally queued prompts. Plus session sorting, task lists, full-resolution camera, quiet hours, aliases, markdown tables, transcript pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.53-preview"
+    "notes":  "Message timestamps: settled user bubbles and assistant blocks now show the host createdAt clock time; streaming rows keep just the cursor. Plus widget queue badge, session sorting, task lists, full-resolution camera, quiet hours, aliases, tables, pagination, cached search, queue edit/count, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.54-preview"
 }
