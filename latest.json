@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  32,
-    "versionName":  "0.2.30-preview",
-    "tag":  "v0.2.30-preview",
-    "publishedAt":  "2026-10-31T00:39:50Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.30-preview/dsh-mobile-0.2.30-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.30-preview-debug.apk",
+    "versionCode":  33,
+    "versionName":  "0.2.31-preview",
+    "tag":  "v0.2.31-preview",
+    "publishedAt":  "2026-10-31T00:43:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.31-preview/dsh-mobile-0.2.31-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.31-preview-debug.apk",
     "apkSizeBytes":  18166617,
-    "sha256":  "c0ba0830884c616bb42cf053e247109103e71f0bba59882d9befb77208b6fa1e",
+    "sha256":  "08222137de201b6e8c855c7704d0fe9a8f79cdd8ed9206353c4f58f0f0abed65",
     "minSdk":  26,
-    "notes":  "Optional background sync: a foreground service keeps watching the paired host for turn completion and pending approvals/questions while DSH Mobile is closed, posting notifications with Allow/Deny/inbox actions. Plus Markdown links, update banner, long-press session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden-session manager, snippets, widget status, app lock, templates, pairing test, theme, voice, export, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.30-preview"
+    "notes":  "Session-list status filters (all / working / idle / unread) and usage sessions sorted by token consumption. Plus background sync service, Markdown links, update banner, session actions, secure window, inbox shortcut, queue persistence, rich markdown, notification actions, hidden-session manager, snippets, widget status, app lock, templates, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.31-preview"
 }
