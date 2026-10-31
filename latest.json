@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  38,
-    "versionName":  "0.2.36-preview",
-    "tag":  "v0.2.36-preview",
-    "publishedAt":  "2026-10-31T01:11:39Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.36-preview/dsh-mobile-0.2.36-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.36-preview-debug.apk",
-    "apkSizeBytes":  18183101,
-    "sha256":  "07e33ed0b293fd4dd841fbfcf618fecc6374d15dd0d384300a211b289c38d9f7",
+    "versionCode":  39,
+    "versionName":  "0.2.37-preview",
+    "tag":  "v0.2.37-preview",
+    "publishedAt":  "2026-10-31T01:17:51Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.37-preview/dsh-mobile-0.2.37-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.37-preview-debug.apk",
+    "apkSizeBytes":  18199485,
+    "sha256":  "a27d90e79722af0b3fa2603b982e9a4f28eeacd1bbf0a01f8a03fccb4f1e09c4",
     "minSdk":  26,
-    "notes":  "Share-sheet images now surface a clear failure when Android denies the URI read, and successful shares become normal composer attachments. Plus send-while-working queue previews, usage copy/low-credit, notification diagnostics/clear, background sync, status filters, Markdown links, update banner, session actions, persistent queue, rich markdown, hidden sessions, snippets, widget status, app lock, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.36-preview"
+    "notes":  "Connection diagnostics: paired host details, SSE/sync/usage state, background-sync state, and a live /health probe with latency plus Copy diagnostics. Also fixes Settings sub-screens (Usage/Hidden sessions/Connection) not opening because Settings stayed on top. Plus image share, send-while-working queue, usage copy/low-credit, notifications/background sync, status filters, Markdown links, update banner, session actions, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.37-preview"
 }
