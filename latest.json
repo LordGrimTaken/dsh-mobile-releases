@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  122,
-    "versionName":  "0.2.120-preview",
-    "tag":  "v0.2.120-preview",
-    "publishedAt":  "2026-10-31T16:00:53Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.120-preview/dsh-mobile-0.2.120-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.120-preview-debug.apk",
+    "versionCode":  123,
+    "versionName":  "0.2.121-preview",
+    "tag":  "v0.2.121-preview",
+    "publishedAt":  "2026-10-31T16:17:26Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.121-preview/dsh-mobile-0.2.121-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.121-preview-debug.apk",
     "apkSizeBytes":  19069357,
-    "sha256":  "c365b78caeafcbe99059a3c9695531cc1e0f825d46b54c4ba863e454aa41c1aa",
+    "sha256":  "2ad98d480cd29863b60b88d64f6ee3bd8cf66b81ba592eef543243402c7889f2",
     "minSdk":  26,
-    "notes":  "Tool output viewer: host 0.2.8 now includes a tool's text result (capped at 8,000 chars + truncation marker) in both session detail and live SSE. Tool cards in chat gain 'View output' when present, opening a monospace selectable sheet with Copy/Share/Close and a truncation warning; message copy/share stays untouched. Fake-host tool-output fixtures/tests (attachments 12; full fake suite 175).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.120-preview"
+    "notes":  "Workspace/Markdown pictures: host 0.2.9 turns local image links in session messages into synthetic chat attachments when they live inside the session workspace or an operator-configured artifacts root (your C:\\Users\\Austin\\tools and temp screenshot dir are configured). They render with the existing thumbnails/full-screen viewer and download read-only through the attachment route. Security: realpath containment, traversal/UNC/device/ADS rejection, extension+magic checks, 8/message+32/session+25MB caps, current-config root revalidation, nosniff. App also hides misleading 0 B sizes for unknown-byte attachments. Also includes tool output viewer from 0.2.120.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.121-preview"
 }
