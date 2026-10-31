@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  128,
-    "versionName":  "0.2.126-preview",
-    "tag":  "v0.2.126-preview",
-    "publishedAt":  "2026-10-31T17:54:48Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.126-preview/dsh-mobile-0.2.126-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.126-preview-debug.apk",
-    "apkSizeBytes":  19118509,
-    "sha256":  "c5985117dd9b60b7201260d66e07a5af6ab5612eaa0545085f0ea713e7d7de8f",
+    "versionCode":  129,
+    "versionName":  "0.2.127-preview",
+    "tag":  "v0.2.127-preview",
+    "publishedAt":  "2026-10-31T18:06:14Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.127-preview/dsh-mobile-0.2.127-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.127-preview-debug.apk",
+    "apkSizeBytes":  19151277,
+    "sha256":  "63c9bb13a0ad832f474b94a3824f6fa49e959f0478ed16cb20a2f98d7655c00f",
     "minSdk":  26,
-    "notes":  "Jump to search hit: host 0.3.5 adds optional seq to search hits; tapping a host-wide search result now opens the session and jumps to the matching message with a brief highlight. Seq-first resolution (tool-call hits included), bounded automatic older-page loading (max 20 pages), older-header-aware scroll, and a not-found notice for very old hits; message-id-only hits also jump, and target state is cleared after apply. Also includes delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.126-preview"
+    "notes":  "Plan/todo sheet: host 0.3.6 adds GET /sessions/{id}/todos from the latest todo/write snapshot. Chat top bar now has an accessible Plan action with an x/y progress hint and a read-only sheet showing the current checklist (in progress/pending/done markers, TalkBack labels, loading/retry/unsupported/empty states, 30 s cache + refresh). No mutations. Also includes search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.127-preview"
 }
