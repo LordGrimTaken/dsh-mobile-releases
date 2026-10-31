@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  103,
-    "versionName":  "0.2.101-preview",
-    "tag":  "v0.2.101-preview",
-    "publishedAt":  "2026-10-31T10:01:47Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.101-preview/dsh-mobile-0.2.101-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.101-preview-debug.apk",
-    "apkSizeBytes":  18625885,
-    "sha256":  "4d0f88a49d741580d8a32efe8c1ae8b360d2440ffe71374aeeedccdd6732b513",
+    "versionCode":  104,
+    "versionName":  "0.2.102-preview",
+    "tag":  "v0.2.102-preview",
+    "publishedAt":  "2026-10-31T10:09:33Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.102-preview/dsh-mobile-0.2.102-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.102-preview-debug.apk",
+    "apkSizeBytes":  18658653,
+    "sha256":  "15576b77d2815ec6559dd766c755dc97fa972f250939c1614252f7d593d61122",
     "minSdk":  26,
-    "notes":  "Real agent presets: new host GET /presets exposes the configured roster (id/name/description/default/broken) without activating anything, and the new-session sheet now uses real preset ids, preselects the host default, disables broken presets, shows the selected description, and falls back to legacy chips on older hosts. Host hot-reloaded and live roster verified (standard/ptc/minimal/cordis, default cordis). Fake-host preset tests (5) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.101-preview"
+    "notes":  "Full-screen in-app image viewer: tapping a historical image attachment opens a dark viewer with pinch zoom (1-6x), double-tap fit/2.5x, clamped pan, multiple-image prev/next paging with counter, share, and loading/retry. Images load from the existing cache with a bounded downsample; the explicit Open action still opens them externally. Fake-host fixtures upgraded to a 512x512 image plus a second image (9 attachment checks).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.102-preview"
 }
