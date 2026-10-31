@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  41,
-    "versionName":  "0.2.39-preview",
-    "tag":  "v0.2.39-preview",
-    "publishedAt":  "2026-10-31T02:24:54Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.39-preview/dsh-mobile-0.2.39-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.39-preview-debug.apk",
-    "apkSizeBytes":  18880341,
-    "sha256":  "cd60316ceabdf1b9531d145c40e39279550d030cd28e6a162ee4a8ef29868470",
+    "versionCode":  42,
+    "versionName":  "0.2.40-preview",
+    "tag":  "v0.2.40-preview",
+    "publishedAt":  "2026-10-31T02:38:46Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.40-preview/dsh-mobile-0.2.40-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.40-preview-debug.apk",
+    "apkSizeBytes":  18232321,
+    "sha256":  "0329e5ff321a5dc2ef4abbb5d770319631839a1a92855026f78109fced4f8d4a",
     "minSdk":  26,
-    "notes":  "Network resilience: the app now auto-heals on foreground resume and on Wi-Fi/VPN/Tailscale network changes, keeps the SSE replay cursor, uses a 90s stream timeout plus stale-socket watchdog, and shows network/stream/reconnect diagnostics. Voice: continuous dictation with live partials, auto-restart across pauses, tap mic to start/stop, and runtime microphone permission. New Tailscale troubleshooting guide. Plus usage CSV share, transcript file share, background-sync interval, connection diagnostics, image share, send-while-working queue, notifications/background sync, status filters, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.39-preview"
+    "notes":  "Connection forensics: a rolling event log in Connection diagnostics shows network/VPN transitions, reconnect reasons, stream errors, and foreground/background events; health failures are categorised as DNS/TLS/timeout/refused; a warning appears when a Tailscale Serve URL is paired but Android reports no VPN; Copy diagnostics includes the log. Plus 0.2.39 network auto-heal and continuous voice dictation.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.40-preview"
 }
