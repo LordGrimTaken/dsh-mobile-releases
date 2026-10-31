@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  85,
-    "versionName":  "0.2.83-preview",
-    "tag":  "v0.2.83-preview",
-    "publishedAt":  "2026-10-31T07:05:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.83-preview/dsh-mobile-0.2.83-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.83-preview-debug.apk",
-    "apkSizeBytes":  18363709,
-    "sha256":  "472f20ebb2a0ee397bacdee130de322be63e8b44a2c5c1413a2e74301aa6cac0",
+    "versionCode":  86,
+    "versionName":  "0.2.84-preview",
+    "tag":  "v0.2.84-preview",
+    "publishedAt":  "2026-10-31T07:16:46Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.84-preview/dsh-mobile-0.2.84-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.84-preview-debug.apk",
+    "apkSizeBytes":  18380093,
+    "sha256":  "2e412b6e9c715c63a97cd2f8c96e21a7e209a0a0cf3eb257b7ebc4222b835427",
     "minSdk":  26,
-    "notes":  "Offline cache management: Settings → Storage shows cached transcript count/size and a confirmed Clear offline caches action that deletes cached transcripts and the session-list snapshot from the phone (host data untouched; next open reloads). Plus image thumbnails, goal Resume/Pause banner, cancelable upload progress, and the streaming upload OOM fix.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.83-preview"
+    "notes":  "Create a goal from Android: when a live session has no goal, the GOAL banner shows Set goal; a dialog captures objective and max rounds and calls POST /sessions/{id}/goal (ctx.goals.create). Existing non-complete goals are rejected with a clear error. Plus Pause/Resume, 20s banner refresh, image thumbnails, cache management, and upload progress/cancel.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.84-preview"
 }
