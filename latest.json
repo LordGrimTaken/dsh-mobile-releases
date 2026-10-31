@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  28,
-    "versionName":  "0.2.26-preview",
-    "tag":  "v0.2.26-preview",
-    "publishedAt":  "2026-10-31T00:25:14Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.26-preview/dsh-mobile-0.2.26-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.26-preview-debug.apk",
-    "apkSizeBytes":  18132829,
-    "sha256":  "d2be22e259a5c803348bcef0e2fe64a3a5acbd71c7eb6e1441d3ff9b3e93c368",
+    "versionCode":  29,
+    "versionName":  "0.2.27-preview",
+    "tag":  "v0.2.27-preview",
+    "publishedAt":  "2026-10-31T00:29:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.27-preview/dsh-mobile-0.2.27-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.27-preview-debug.apk",
+    "apkSizeBytes":  18149213,
+    "sha256":  "f42ab06eaa5bdcfbc7600578c429f576132b2868ea22b786330cebf260d2b000",
     "minSdk":  26,
-    "notes":  "Approval notifications now have Allow/Deny actions plus Open inbox; attachment picker supports multiple files in one selection with cap handling. Plus hidden-session manager, snippets, recent prompts, widget status, app lock, templates, pairing test, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.26-preview"
+    "notes":  "Queued prompts now survive process death and reconnect; richer markdown rendering for headings, bullet/numbered lists, quotes, and rules. Plus approval notification actions, multi-file attach, hidden-session manager, snippets, recent prompts, widget status, app lock, templates, pairing test, theme, voice, export, inbox, retry, crash fixes, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.27-preview"
 }
