@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  90,
-    "versionName":  "0.2.88-preview",
-    "tag":  "v0.2.88-preview",
-    "publishedAt":  "2026-10-31T08:00:54Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.88-preview/dsh-mobile-0.2.88-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.88-preview-debug.apk",
+    "versionCode":  91,
+    "versionName":  "0.2.89-preview",
+    "tag":  "v0.2.89-preview",
+    "publishedAt":  "2026-10-31T08:18:23Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.89-preview/dsh-mobile-0.2.89-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.89-preview-debug.apk",
     "apkSizeBytes":  18412861,
-    "sha256":  "12aeb83e37fa8cd4c1461492686cba09afbd998b0bbab3f7e29478bff9b6de32",
+    "sha256":  "1fb66abd8749f5cafbbb6f049b5259162c511134145ffc9533bf0ebbf759ba97",
     "minSdk":  26,
-    "notes":  "Read-only approvals on the phone: the host mirrors pending approvals from the DSH approval waterfall without answering them, returns {approvals,supported:true,readOnly:true}, and the app shows Resolve on desktop instead of Allow/Deny in the Inbox and inline chat; read-only approval notifications only offer Open inbox. Also session goal badges/toggle, widget goal phase from list summaries, and fake-host approvals tests (8).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.88-preview"
+    "notes":  "Read-only questions on the phone: host mirrors the user-questions waterfall without answering, exposes {questions,supported:true,readOnly:true}, and the app shows read-only Inbox/inline question cards with options and Answer on desktop; read-only hosts also guard approval deep links/actions. Includes read-only approvals, session goal badges, goal alerts toggle, and fake-host question tests (7).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.89-preview"
 }
