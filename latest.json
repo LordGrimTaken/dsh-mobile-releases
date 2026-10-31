@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  77,
-    "versionName":  "0.2.75-preview",
-    "tag":  "v0.2.75-preview",
-    "publishedAt":  "2026-10-31T05:40:11Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.75-preview/dsh-mobile-0.2.75-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.75-preview-debug.apk",
+    "versionCode":  78,
+    "versionName":  "0.2.76-preview",
+    "tag":  "v0.2.76-preview",
+    "publishedAt":  "2026-10-31T05:43:46Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.76-preview/dsh-mobile-0.2.76-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.76-preview-debug.apk",
     "apkSizeBytes":  18330941,
-    "sha256":  "bfd674183050224e5eae2c99311b08ffb99f29da4bc8a9cdfc4029e52fc90dc9",
+    "sha256":  "0997ecc9ece9f2271be2ef88f8ba522d07293317de104350db583b3df3a14c9a",
     "minSdk":  26,
-    "notes":  "Today's token estimate: the Usage dashboard now has a TODAY card showing growth of host token totals since the first successful sync today (baseline/date persisted, resets at local midnight or when the host counter drops). Plus queue reordering, wrap code blocks, live usage refresh, chat text size, widget Inbox action, attachment draft persistence, continue working, notification grouping, voice language, low-credit alerts, app-lock grace, and Quick Settings tiles.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.75-preview"
+    "notes":  "Background-sync health: the poll loop records the last successful poll time and last error; Connection diagnostics shows last sync as relative time plus the latest error, making a silently dying background watcher visible. Plus today's token estimate, queue reordering, wrap code blocks, live usage refresh, chat text size, widget Inbox action, attachment draft persistence, continue working, notification grouping, voice language, low-credit alerts, and app-lock grace.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.76-preview"
 }
