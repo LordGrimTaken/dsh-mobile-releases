@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  70,
-    "versionName":  "0.2.68-preview",
-    "tag":  "v0.2.68-preview",
-    "publishedAt":  "2026-10-31T05:11:51Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.68-preview/dsh-mobile-0.2.68-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.68-preview-debug.apk",
-    "apkSizeBytes":  18330869,
-    "sha256":  "47c45bc97226b5882c00bf31cb1bf88b2307b5ac81dad4e88bc5f067a184a5e5",
+    "versionCode":  71,
+    "versionName":  "0.2.69-preview",
+    "tag":  "v0.2.69-preview",
+    "publishedAt":  "2026-10-31T05:15:26Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.69-preview/dsh-mobile-0.2.69-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.69-preview-debug.apk",
+    "apkSizeBytes":  18330941,
+    "sha256":  "0de1afadabeeebd0e4473bdd961d8a3a73ca9c8ccfaab6ca4d652d8826ead3db",
     "minSdk":  26,
-    "notes":  "Attachment draft persistence: host-accepted attachment ids (name/type/size) are stored per session and restored into the composer tray after an app restart, so an unfinished prompt doesn't need the file picked or uploaded again. Plus approval capability clarity, continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, and the earlier network/queue/usage work.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.68-preview"
+    "notes":  "Widget Inbox action: a third quick-action opens the Inbox directly, and the widget status line appends N waiting for pending approvals/questions alongside queued sends. Plus attachment draft persistence, approval capability clarity, continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, and the earlier network/queue/usage work.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.69-preview"
 }
