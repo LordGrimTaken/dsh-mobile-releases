@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  84,
-    "versionName":  "0.2.82-preview",
-    "tag":  "v0.2.82-preview",
-    "publishedAt":  "2026-10-31T06:58:25Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.82-preview/dsh-mobile-0.2.82-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.82-preview-debug.apk",
+    "versionCode":  85,
+    "versionName":  "0.2.83-preview",
+    "tag":  "v0.2.83-preview",
+    "publishedAt":  "2026-10-31T07:05:46Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.83-preview/dsh-mobile-0.2.83-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.83-preview-debug.apk",
     "apkSizeBytes":  18363709,
-    "sha256":  "5e935e17a744169e34c6e6d50c6998e8b155bd9a8f015430ce0a650016b4d21c",
+    "sha256":  "472f20ebb2a0ee397bacdee130de322be63e8b44a2c5c1413a2e74301aa6cac0",
     "minSdk":  26,
-    "notes":  "Image attachment thumbnails: image chips in the composer decode a small (96px-bounded) preview so camera photos and screenshots are recognizable before sending; the thumbnail is kept after upload, non-images keep the paperclip icon. Plus goal Resume/Pause banner, upload progress/cancel, and the streaming upload OOM fix.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.82-preview"
+    "notes":  "Offline cache management: Settings → Storage shows cached transcript count/size and a confirmed Clear offline caches action that deletes cached transcripts and the session-list snapshot from the phone (host data untouched; next open reloads). Plus image thumbnails, goal Resume/Pause banner, cancelable upload progress, and the streaming upload OOM fix.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.83-preview"
 }
