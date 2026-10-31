@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  71,
-    "versionName":  "0.2.69-preview",
-    "tag":  "v0.2.69-preview",
-    "publishedAt":  "2026-10-31T05:15:26Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.69-preview/dsh-mobile-0.2.69-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.69-preview-debug.apk",
-    "apkSizeBytes":  18330941,
-    "sha256":  "0de1afadabeeebd0e4473bdd961d8a3a73ca9c8ccfaab6ca4d652d8826ead3db",
+    "versionCode":  72,
+    "versionName":  "0.2.70-preview",
+    "tag":  "v0.2.70-preview",
+    "publishedAt":  "2026-10-31T05:17:34Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.70-preview/dsh-mobile-0.2.70-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.70-preview-debug.apk",
+    "apkSizeBytes":  18314485,
+    "sha256":  "ba080a719432cad3a65d59ca0c6c4ca6c6c0b9471d856551442ac8c01fc85ab7",
     "minSdk":  26,
-    "notes":  "Widget Inbox action: a third quick-action opens the Inbox directly, and the widget status line appends N waiting for pending approvals/questions alongside queued sends. Plus attachment draft persistence, approval capability clarity, continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, and the earlier network/queue/usage work.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.69-preview"
+    "notes":  "Streaming attachment upload: fixes OutOfMemoryError when attaching a large screen recording. Base64 is written straight to the request body in 12 KB chunks instead of building a 114 MB String plus a 241 MB JSON copy. Client cap 64 MB, host 200 MB.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.70-preview"
 }
