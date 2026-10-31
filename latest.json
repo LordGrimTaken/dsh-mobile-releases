@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  93,
-    "versionName":  "0.2.91-preview",
-    "tag":  "v0.2.91-preview",
-    "publishedAt":  "2026-10-31T08:37:10Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.91-preview/dsh-mobile-0.2.91-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.91-preview-debug.apk",
+    "versionCode":  94,
+    "versionName":  "0.2.92-preview",
+    "tag":  "v0.2.92-preview",
+    "publishedAt":  "2026-10-31T08:45:31Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.92-preview/dsh-mobile-0.2.92-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.92-preview-debug.apk",
     "apkSizeBytes":  18429245,
-    "sha256":  "39f5e2496ac16e0347cd75108d0a1b5ef6fffadae6dad15437303fef0b8cc8e2",
+    "sha256":  "ede5fa8bf7211a58bdf2c46cde26813ba1ac40feabd1f85ebf5d7a82bb7f24f5",
     "minSdk":  26,
-    "notes":  "Goal objectives + non-live goal summaries: GET /sessions now includes each goal's objective and resolves goals for cold sessions from the durable projection, so the Goals dashboard shows real objectives for paused/blocked/completed goals too. Also refreshes the 200-idea catalog with a 0.2.90 implementation-status map and fake-host goal objectives (27 checks).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.91-preview"
+    "notes":  "Mark a goal complete from the phone: the GOAL banner gains a Complete action (active/paused/blocked) with confirmation, backed by POST /sessions/{id}/goal/complete; the goal becomes complete/disarmed and goal.changed operation complete fires. The app sends the goal id/revision it displayed so a stale dialog is rejected instead of completing a different current goal. Fake-host complete route (30 goal checks) and contract docs updated.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.92-preview"
 }
