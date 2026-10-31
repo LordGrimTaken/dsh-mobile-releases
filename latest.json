@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  104,
-    "versionName":  "0.2.102-preview",
-    "tag":  "v0.2.102-preview",
-    "publishedAt":  "2026-10-31T10:09:33Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.102-preview/dsh-mobile-0.2.102-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.102-preview-debug.apk",
-    "apkSizeBytes":  18658653,
-    "sha256":  "15576b77d2815ec6559dd766c755dc97fa972f250939c1614252f7d593d61122",
+    "versionCode":  105,
+    "versionName":  "0.2.103-preview",
+    "tag":  "v0.2.103-preview",
+    "publishedAt":  "2026-10-31T10:19:20Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.103-preview/dsh-mobile-0.2.103-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.103-preview-debug.apk",
+    "apkSizeBytes":  18691421,
+    "sha256":  "26754e990793d31aca8eb10eab263092f6f98b303e9130ba9d229bf97f0ca483",
     "minSdk":  26,
-    "notes":  "Full-screen in-app image viewer: tapping a historical image attachment opens a dark viewer with pinch zoom (1-6x), double-tap fit/2.5x, clamped pan, multiple-image prev/next paging with counter, share, and loading/retry. Images load from the existing cache with a bounded downsample; the explicit Open action still opens them externally. Fake-host fixtures upgraded to a 512x512 image plus a second image (9 attachment checks).",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.102-preview"
+    "notes":  "Host-wide message search: new GET /search scans visible sessions (user/assistant text + tool command detail) with sessions/events/hits/3s bounds, and the phone gains a 'Search all sessions' screen with debounce, highlighted snippets, session/role/time, truncated note and retry. Also fixes image-viewer pan bounds for letterboxed non-square images. Fake-host search fixtures/tests (9 checks) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.103-preview"
 }
