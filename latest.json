@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  126,
-    "versionName":  "0.2.124-preview",
-    "tag":  "v0.2.124-preview",
-    "publishedAt":  "2026-10-31T17:32:45Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.124-preview/dsh-mobile-0.2.124-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.124-preview-debug.apk",
-    "apkSizeBytes":  19102125,
-    "sha256":  "5bb9614fb1c22eea8cc7d2e91ec0555c1aba42e72bc7aed559c6e0eee7b9ee85",
+    "versionCode":  127,
+    "versionName":  "0.2.125-preview",
+    "tag":  "v0.2.125-preview",
+    "publishedAt":  "2026-10-31T17:42:12Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.125-preview/dsh-mobile-0.2.125-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.125-preview-debug.apk",
+    "apkSizeBytes":  19118509,
+    "sha256":  "f2d0b81b37aaece65ec70bd198c25a4ed7b4c09b388883adce27ae8122de9f3b",
     "minSdk":  26,
-    "notes":  "Quiet hours and per-session mutes now reach the host: host 0.3.3 adds PUT /push/suppress and an additive suppression summary on GET /push. The app debounces and syncs quiet-hours enabled/start/end, device IANA timezone and muted session ids; the host suppresses all ntfy event pushes during quiet hours (DST-safe, midnight-crossing) and session-scoped approval/question/turn pushes for muted sessions. Settings explains it. Also includes skills browser, session preset/lineage, local+remote Markdown images, tool output viewer and PDF export from recent releases.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.124-preview"
+    "notes":  "Delegation activity: host 0.3.4 adds optional aggregate delegation counts (internal direct child sessions, archived children excluded, no child ids/titles). Session list rows show '2 agents · 1 working' badges (99+ cap, TalkBack labels) and Session Info shows '2 subagents · 1 working'; old hosts/normal sessions are unchanged. Live host currently reports delegation for 6 sessions (including 9 child sessions on this one). Also includes push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.125-preview"
 }
