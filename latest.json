@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  74,
-    "versionName":  "0.2.72-preview",
-    "tag":  "v0.2.72-preview",
-    "publishedAt":  "2026-10-31T05:26:04Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.72-preview/dsh-mobile-0.2.72-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.72-preview-debug.apk",
+    "versionCode":  75,
+    "versionName":  "0.2.73-preview",
+    "tag":  "v0.2.73-preview",
+    "publishedAt":  "2026-10-31T05:30:23Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.73-preview/dsh-mobile-0.2.73-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.73-preview-debug.apk",
     "apkSizeBytes":  18330941,
-    "sha256":  "50905ddb27219833cc8d2823fada2aacb8de16731fe7b3f052509b16d20bf0be",
+    "sha256":  "dd428f06c3a24c833f1f4b21cbc480033e3e34d58d4aa767e93e730702d14167",
     "minSdk":  26,
-    "notes":  "Live usage refresh: while the Usage dashboard is open it refreshes every 30 seconds when the host connection is live, keeping token totals and remaining credit current. Plus chat text size, widget Inbox action, attachment draft persistence, approval capability clarity, continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, and the earlier network/queue/usage work.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.72-preview"
+    "notes":  "Wrap code blocks: Settings → Appearance adds a Wrap code blocks toggle; fenced code soft-wraps to screen width instead of scrolling sideways, applied through every chat message. Plus live usage refresh, chat text size, widget Inbox action, attachment draft persistence, approval capability clarity, continue working, notification grouping, long-message collapse, voice language, low-credit alerts, app-lock grace, Quick Settings tiles, and the earlier network/queue/usage work.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.73-preview"
 }
