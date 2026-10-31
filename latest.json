@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  62,
-    "versionName":  "0.2.60-preview",
-    "tag":  "v0.2.60-preview",
-    "publishedAt":  "2026-10-31T04:43:40Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.60-preview/dsh-mobile-0.2.60-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.60-preview-debug.apk",
+    "versionCode":  63,
+    "versionName":  "0.2.61-preview",
+    "tag":  "v0.2.61-preview",
+    "publishedAt":  "2026-10-31T04:46:06Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.61-preview/dsh-mobile-0.2.61-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.61-preview-debug.apk",
     "apkSizeBytes":  18298101,
-    "sha256":  "c2d3fee757d9b8878379e30e86a3643e899b69edfaf7d326263aca72ce4a7d2e",
+    "sha256":  "b33bf75e1dbedac647c9ecb7167d74465fee0b0af1305e68a9ed644ce7cd7a38",
     "minSdk":  26,
-    "notes":  "Quick Settings tiles: add the New DSH session and DSH usage tiles from the Android Quick Settings editor; taps reuse the existing deep links. Plus foreground notification dedupe, AMOLED theme, background queue delivery, dynamic pinned shortcuts, per-session mute, timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.60-preview"
+    "notes":  "App-lock grace period: Security now offers Lock after now / 15s / 30s / 1m; returning within the grace window keeps the app unlocked, a longer pause re-locks it, and immediate locking stays the default. Plus Quick Settings tiles, foreground notification dedupe, AMOLED theme, background queue delivery, dynamic shortcuts, per-session mute, timestamps, widget queue badge, sorting, task lists, camera, quiet hours, aliases, tables, pagination, cached search, offline transcripts, connection diagnostics, and usage sharing.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.61-preview"
 }
