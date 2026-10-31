@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  107,
-    "versionName":  "0.2.105-preview",
-    "tag":  "v0.2.105-preview",
-    "publishedAt":  "2026-10-31T10:42:03Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.105-preview/dsh-mobile-0.2.105-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.105-preview-debug.apk",
-    "apkSizeBytes":  18756957,
-    "sha256":  "706e180c6404ba1947f297a50d1e5dd916d7196c0f64abc26bc545fadf9c633c",
+    "versionCode":  108,
+    "versionName":  "0.2.106-preview",
+    "tag":  "v0.2.106-preview",
+    "publishedAt":  "2026-10-31T10:52:16Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.106-preview/dsh-mobile-0.2.106-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.106-preview-debug.apk",
+    "apkSizeBytes":  18773341,
+    "sha256":  "8c1cc322c827c2ed5204c1d85ac7964a48f83ae95081d9225b372f54b75584ec",
     "minSdk":  26,
-    "notes":  "Optional ntfy push: Settings configures a host-published ntfy topic (https, optional token, generate/clear topic) and the host sends short approval/question/goal/turn pushes with inbox/session deep links. Host-side hardening: SSRF-safe server validation, token redaction, 30/min cap, 2-failure/60s backoff, bounded queue/dedupe; app copy documents topic secrecy, plaintext token on host, and that app-local quiet-hours/foreground/mute are not honored. Also documents the host search budget as best-effort with partial hits. Fake-host push config tests (7) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.105-preview"
+    "notes":  "Per-session approval policy: GET/PUT /sessions/{id}/approval-policy exposes DSH ask/never; Ask allows approval requests, Never auto-rejects approval-requiring actions for unattended runs. The session long-press sheet gains an Approval policy dialog with a second confirmation for Never; cold sessions are read from the durable policy log and are never activated, writes need a live session. Fake-host policy fixtures/tests (8) in CI.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.106-preview"
 }
