@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  78,
-    "versionName":  "0.2.76-preview",
-    "tag":  "v0.2.76-preview",
-    "publishedAt":  "2026-10-31T05:43:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.76-preview/dsh-mobile-0.2.76-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.76-preview-debug.apk",
+    "versionCode":  79,
+    "versionName":  "0.2.77-preview",
+    "tag":  "v0.2.77-preview",
+    "publishedAt":  "2026-10-31T05:54:02Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.77-preview/dsh-mobile-0.2.77-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.77-preview-debug.apk",
     "apkSizeBytes":  18330941,
-    "sha256":  "0997ecc9ece9f2271be2ef88f8ba522d07293317de104350db583b3df3a14c9a",
+    "sha256":  "0421386ac103494f7d5df621cac721c3f87791ac38bd1150f3b93e23e07ad116",
     "minSdk":  26,
-    "notes":  "Background-sync health: the poll loop records the last successful poll time and last error; Connection diagnostics shows last sync as relative time plus the latest error, making a silently dying background watcher visible. Plus today's token estimate, queue reordering, wrap code blocks, live usage refresh, chat text size, widget Inbox action, attachment draft persistence, continue working, notification grouping, voice language, low-credit alerts, and app-lock grace.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.76-preview"
+    "notes":  "Fixes the 43MB video upload OOM crash: attachment bodies now stream (JSON prefix + base64 chunks + suffix) instead of building a 241MB string; client cap raised to 64MB decoded (host accepts 200MB). Also fixes an upstream streaming-encoder bug that encoded zeros for full chunks, verified by a new JVM test (68 tests pass).",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.77-preview"
 }
