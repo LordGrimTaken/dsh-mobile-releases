@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  117,
-    "versionName":  "0.2.115-preview",
-    "tag":  "v0.2.115-preview",
-    "publishedAt":  "2026-10-31T14:07:28Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.115-preview/dsh-mobile-0.2.115-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.115-preview-debug.apk",
-    "apkSizeBytes":  19020157,
-    "sha256":  "6d351dacd36c8a4c6a0efeadd4b396a4970aba86b9c5bbbc105521cc759be90c",
+    "versionCode":  118,
+    "versionName":  "0.2.116-preview",
+    "tag":  "v0.2.116-preview",
+    "publishedAt":  "2026-10-31T14:27:24Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.116-preview/dsh-mobile-0.2.116-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.116-preview-debug.apk",
+    "apkSizeBytes":  19020201,
+    "sha256":  "558a9f1590cb663bc28ce69ecd7ac0e3b55a1fd20082ad23b1b62fe6659d4772",
     "minSdk":  26,
-    "notes":  "Hotfix: fixes the startup crash on a paired host (NPE in AppState.startRemote during construction because lastGoalChange/presetRoster/presetsLoading were initialized after the init block). The app should no longer crash-loop on launch after updating. Keeps crash-loop safe mode, Tailscale one-tap/add-host, recovery links, and everything from 0.2.114.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.115-preview"
+    "notes":  "Inline question reply: question notifications show the prompt and a RemoteInput 'Reply' action so you can answer free-text without opening the app. A non-exported receiver validates the action, re-checks app lock, loads the encrypted host profile, sends with an 8.5s timeout and updates the same notification (Answer sent / Already answered / Couldn't send). Replies are withheld while app lock is on; lock-screen public versions hide the prompt; per-question notification ids. Also includes a regression test for the 0.2.115 startup NPE fix.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.116-preview"
 }
