@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  37,
-    "versionName":  "0.2.35-preview",
-    "tag":  "v0.2.35-preview",
-    "publishedAt":  "2026-10-31T01:07:41Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.35-preview/dsh-mobile-0.2.35-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.35-preview-debug.apk",
+    "versionCode":  38,
+    "versionName":  "0.2.36-preview",
+    "tag":  "v0.2.36-preview",
+    "publishedAt":  "2026-10-31T01:11:39Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.36-preview/dsh-mobile-0.2.36-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.36-preview-debug.apk",
     "apkSizeBytes":  18183101,
-    "sha256":  "08fcdb82478107b71f9162c417eaf2f13d661f42815f5d9d359598ea80eb0302",
+    "sha256":  "07e33ed0b293fd4dd841fbfcf618fecc6374d15dd0d384300a211b289c38d9f7",
     "minSdk":  26,
-    "notes":  "Share-sheet image ingest: send one or several images from Gallery/Photos to DSH Mobile; they become normal composer attachments (10 MB limit, 8-file cap) for the current or most recent session. Plus send-while-working queue previews, usage copy/warning, notification diagnostics, background sync, status filters, Markdown links, update banner, session actions, rich markdown, hidden sessions, snippets, widget status, app lock, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.35-preview"
+    "notes":  "Share-sheet images now surface a clear failure when Android denies the URI read, and successful shares become normal composer attachments. Plus send-while-working queue previews, usage copy/low-credit, notification diagnostics/clear, background sync, status filters, Markdown links, update banner, session actions, persistent queue, rich markdown, hidden sessions, snippets, widget status, app lock, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.36-preview"
 }
