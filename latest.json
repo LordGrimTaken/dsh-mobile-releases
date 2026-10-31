@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  113,
-    "versionName":  "0.2.111-preview",
-    "tag":  "v0.2.111-preview",
-    "publishedAt":  "2026-10-31T12:00:46Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.111-preview/dsh-mobile-0.2.111-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.111-preview-debug.apk",
-    "apkSizeBytes":  18969949,
-    "sha256":  "ccf4907e4097984141ebae091bae857660f3111c7048df404d2d4d8b38009220",
+    "versionCode":  114,
+    "versionName":  "0.2.112-preview",
+    "tag":  "v0.2.112-preview",
+    "publishedAt":  "2026-10-31T12:10:50Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.112-preview/dsh-mobile-0.2.112-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.112-preview-debug.apk",
+    "apkSizeBytes":  18986333,
+    "sha256":  "c6d53dac6b15bcf233047d1ca0b68e388549dedfdc01804625644d00abe62bc3",
     "minSdk":  26,
-    "notes":  "Recovery access: no-desktop re-pairing. While paired, Settings -> Security generates a single-use 256-bit recovery link/code (host stores only a SHA-256 hash). Save it in a password manager. After clearing app data or reinstalling, choose 'Restore with recovery code' on the welcome screen (or open the saved dshmobile://recover link), paste the code/link, and the app pairs again without any desktop 6-digit code; the code rotates and the new link is shown once. Also adds role/date filters to host-wide search and fixes a role-echo bug. Fake-host recovery/search tests (8/13; full fake suite 162) in CI.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.111-preview"
+    "notes":  "Tailscale one-tap sign-in: on a Tailscale Serve URL, the host trusts the tailnet identity Serve forwards and issues a device token, so a fresh install can sign in with no 6-digit desktop code. Welcome -> Sign in with Tailscale, enter your Serve URL (https://host.tailnet.ts.net), done. Missing identity or disabled hosts fall back to a pairing code or recovery link; optional host config restricts to one Tailscale login or disables auto-pair. Also includes recovery links and search role/date filters.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.112-preview"
 }
