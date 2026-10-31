@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  34,
-    "versionName":  "0.2.32-preview",
-    "tag":  "v0.2.32-preview",
-    "publishedAt":  "2026-10-31T00:48:11Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.32-preview/dsh-mobile-0.2.32-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.32-preview-debug.apk",
-    "apkSizeBytes":  18166617,
-    "sha256":  "2d2d45aa3801b0f35b2739c2c298f20b33ca8f327950d0f509ca701d81294817",
+    "versionCode":  35,
+    "versionName":  "0.2.33-preview",
+    "tag":  "v0.2.33-preview",
+    "publishedAt":  "2026-10-31T00:53:02Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.33-preview/dsh-mobile-0.2.33-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.33-preview-debug.apk",
+    "apkSizeBytes":  18182997,
+    "sha256":  "23369cd36003a6123a105931aa4960634bff7363b98b848d8784d8d0e6db3b5f",
     "minSdk":  26,
-    "notes":  "Notification diagnostics in Settings: permission state plus a Send test notification button. Verified background sync runs as a foreground service on a live-paired emulator (ongoing background-sync notification, dataSync FGS). Plus status filters, usage sorting, Markdown links, update banner, session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden-session manager, snippets, widget status, app lock, and live DeepSeek credit.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.32-preview"
+    "notes":  "Usage polish: copy a full usage summary, low-credit warning when the remaining balance drops under 5, and clearer balance-source text. Notification diagnostics gain Clear notifications; app lock applies screenshot protection immediately; session status filter persists across launches. Plus background sync, status filters, Markdown links, update banner, session actions, secure window, inbox shortcut, persistent queue, rich markdown, hidden sessions, snippets, widget status, and live DeepSeek credit.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.33-preview"
 }
