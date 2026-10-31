@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  129,
-    "versionName":  "0.2.127-preview",
-    "tag":  "v0.2.127-preview",
-    "publishedAt":  "2026-10-31T18:06:14Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.127-preview/dsh-mobile-0.2.127-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.127-preview-debug.apk",
+    "versionCode":  130,
+    "versionName":  "0.2.128-preview",
+    "tag":  "v0.2.128-preview",
+    "publishedAt":  "2026-10-31T18:24:19Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.128-preview/dsh-mobile-0.2.128-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.128-preview-debug.apk",
     "apkSizeBytes":  19151277,
-    "sha256":  "63c9bb13a0ad832f474b94a3824f6fa49e959f0478ed16cb20a2f98d7655c00f",
+    "sha256":  "dfa8afc68cfb7cd0d3eb8e5a310fac602c738c90d8f881d32e8b63208811cb08",
     "minSdk":  26,
-    "notes":  "Plan/todo sheet: host 0.3.6 adds GET /sessions/{id}/todos from the latest todo/write snapshot. Chat top bar now has an accessible Plan action with an x/y progress hint and a read-only sheet showing the current checklist (in progress/pending/done markers, TalkBack labels, loading/retry/unsupported/empty states, 30 s cache + refresh). No mutations. Also includes search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.127-preview"
+    "notes":  "Scheduled prompts in chat: host 0.3.7 now includes scheduled deliveries (source.kind='schedule') in the transcript/live SSE with a source:'schedule' marker, while previews, titles and host-wide search stay strict-human so scheduler instructions do not leak. The app shows an accessible 'Scheduled' label, prefixes copy/share with 'Scheduled: ', and exports 'User (Scheduled)' in Markdown. Also fixed the search regression caught during this round: q=bot is back to 5 hits across all 14 sessions (~5.8s). Includes plan/todo sheet, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.128-preview"
 }
