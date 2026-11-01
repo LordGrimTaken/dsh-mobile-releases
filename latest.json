@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  130,
-    "versionName":  "0.2.128-preview",
-    "tag":  "v0.2.128-preview",
-    "publishedAt":  "2026-10-31T18:24:19Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.128-preview/dsh-mobile-0.2.128-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.128-preview-debug.apk",
-    "apkSizeBytes":  19151277,
-    "sha256":  "dfa8afc68cfb7cd0d3eb8e5a310fac602c738c90d8f881d32e8b63208811cb08",
+    "versionCode":  131,
+    "versionName":  "0.2.129-preview",
+    "tag":  "v0.2.129-preview",
+    "publishedAt":  "2026-11-01T13:18:14Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.129-preview/dsh-mobile-0.2.129-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.129-preview-debug.apk",
+    "apkSizeBytes":  19184045,
+    "sha256":  "052a10093866864129a0a84df70db5b69d2a0b9f0adc8404695cf83f87e83fdf",
     "minSdk":  26,
-    "notes":  "Scheduled prompts in chat: host 0.3.7 now includes scheduled deliveries (source.kind='schedule') in the transcript/live SSE with a source:'schedule' marker, while previews, titles and host-wide search stay strict-human so scheduler instructions do not leak. The app shows an accessible 'Scheduled' label, prefixes copy/share with 'Scheduled: ', and exports 'User (Scheduled)' in Markdown. Also fixed the search regression caught during this round: q=bot is back to 5 hits across all 14 sessions (~5.8s). Includes plan/todo sheet, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.128-preview"
+    "notes":  "Agent Teams board: host 0.3.8 adds GET /sessions/{id}/team (latest team/task + team/member events: active tasks, agents/phases, counts; descriptions/owner ids/write scopes never exposed; visible sessions, no agent activation). App 0.2.129 adds a Team action in Session Info with an active-task hint and a read-only sheet showing counts, Agents and Active tasks (blocked-by ids), with 30s cache/refresh and loading/error/unsupported/empty states. Live this session: 194 completed tasks, 7 agents, 0 active. Also includes scheduled prompts in chat, plan/todo sheet, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.129-preview"
 }
