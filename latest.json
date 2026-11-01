@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  132,
-    "versionName":  "0.2.130-preview",
-    "tag":  "v0.2.130-preview",
-    "publishedAt":  "2026-11-01T13:33:11Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.130-preview/dsh-mobile-0.2.130-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.130-preview-debug.apk",
-    "apkSizeBytes":  19216813,
-    "sha256":  "f00367b79ff0c6fa552400f7dd091ce483832739c97e309811f2681f656da13e",
+    "versionCode":  142,
+    "versionName":  "0.2.140-preview",
+    "tag":  "v0.2.140-preview",
+    "publishedAt":  "2026-11-01T15:52:00Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile/releases/download/v0.2.140-preview/dsh-mobile-0.2.140-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.140-preview-debug.apk",
+    "apkSizeBytes":  19380693,
+    "sha256":  "2faf6a0e01de90d48312590d96c6607c48d741d8d1fd877471326af8811c2961",
     "minSdk":  26,
-    "notes":  "Trajectory journal (inspired by sorsama/deepseek-harness-mobile): host 0.3.9 adds GET /sessions/{id}/trajectory with newest-first compact raw-event summaries (turns/steps, visible messages, tool calls/results, goals/todos/team/schedules), seq pagination, credential redaction, no raw payloads; app 0.2.130 adds a Trajectory action in Session Info opening a read-only journal with friendly labels, error tint, Load older, 30s cache and refresh. Also includes Agent Teams board, plan/todo sheet, scheduled prompts, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.130-preview"
+    "notes":  "First public open-source release: live DSH sessions, chat and approvals, files with mention-in-prompt, plans/teams/trajectory/jobs, usage and context meters, adaptive layout, accent themes, share cards, startup recovery and the paired-launch NPE fix. Debug-signed preview APK; see README and SECURITY.md.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile/releases/tag/v0.2.140-preview"
 }
