@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "versionCode":  131,
-    "versionName":  "0.2.129-preview",
-    "tag":  "v0.2.129-preview",
-    "publishedAt":  "2026-11-01T13:18:14Z",
-    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.129-preview/dsh-mobile-0.2.129-preview-debug.apk",
-    "apkAssetName":  "dsh-mobile-0.2.129-preview-debug.apk",
-    "apkSizeBytes":  19184045,
-    "sha256":  "052a10093866864129a0a84df70db5b69d2a0b9f0adc8404695cf83f87e83fdf",
+    "versionCode":  132,
+    "versionName":  "0.2.130-preview",
+    "tag":  "v0.2.130-preview",
+    "publishedAt":  "2026-11-01T13:33:11Z",
+    "apkUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/download/v0.2.130-preview/dsh-mobile-0.2.130-preview-debug.apk",
+    "apkAssetName":  "dsh-mobile-0.2.130-preview-debug.apk",
+    "apkSizeBytes":  19216813,
+    "sha256":  "f00367b79ff0c6fa552400f7dd091ce483832739c97e309811f2681f656da13e",
     "minSdk":  26,
-    "notes":  "Agent Teams board: host 0.3.8 adds GET /sessions/{id}/team (latest team/task + team/member events: active tasks, agents/phases, counts; descriptions/owner ids/write scopes never exposed; visible sessions, no agent activation). App 0.2.129 adds a Team action in Session Info with an active-task hint and a read-only sheet showing counts, Agents and Active tasks (blocked-by ids), with 30s cache/refresh and loading/error/unsupported/empty states. Live this session: 194 completed tasks, 7 agents, 0 active. Also includes scheduled prompts in chat, plan/todo sheet, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
-    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.129-preview"
+    "notes":  "Trajectory journal (inspired by sorsama/deepseek-harness-mobile): host 0.3.9 adds GET /sessions/{id}/trajectory with newest-first compact raw-event summaries (turns/steps, visible messages, tool calls/results, goals/todos/team/schedules), seq pagination, credential redaction, no raw payloads; app 0.2.130 adds a Trajectory action in Session Info opening a read-only journal with friendly labels, error tint, Load older, 30s cache and refresh. Also includes Agent Teams board, plan/todo sheet, scheduled prompts, search-hit jump, delegation badges, push quiet-hours/mute sync, skills browser, preset/lineage, local+remote Markdown images, tool output viewer and PDF export.",
+    "releaseUrl":  "https://github.com/LordGrimTaken/dsh-mobile-releases/releases/tag/v0.2.130-preview"
 }
